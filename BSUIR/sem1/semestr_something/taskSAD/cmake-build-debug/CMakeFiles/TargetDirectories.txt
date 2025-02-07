@@ -1,0 +1,3 @@
+E:/repos/1 семестр прочее/taskSAD/cmake-build-debug/CMakeFiles/taskSAD.dir
+E:/repos/1 семестр прочее/taskSAD/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/repos/1 семестр прочее/taskSAD/cmake-build-debug/CMakeFiles/rebuild_cache.dir

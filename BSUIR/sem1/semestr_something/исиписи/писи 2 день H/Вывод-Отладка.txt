@@ -1,0 +1,15 @@
+﻿"писи 2 день H.exe" (Win32). Загружено "C:\Users\Евгений\source\repos\писи 2 день H\x64\Debug\писи 2 день H.exe". Символы загружены.
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\ntdll.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\kernel32.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\KernelBase.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\msvcp140d.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140d.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\vcruntime140_1d.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\ucrtbased.dll". 
+Поток 0x29f0 завершился с кодом 0 (0x0).
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\kernel.appcore.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\msvcrt.dll". 
+"писи 2 день H.exe" (Win32). Загружено "C:\Windows\System32\rpcrt4.dll". 
+Поток 0x2b48 завершился с кодом 0 (0x0).
+Поток 0x340c завершился с кодом 0 (0x0).
+Программа "[14356] писи 2 день H.exe" завершилась с кодом 0 (0x0).

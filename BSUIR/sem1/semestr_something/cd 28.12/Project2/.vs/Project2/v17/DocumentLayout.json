@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 28.12\\Project2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD8EF5CD-D603-400C-AE3C-3E01B9CA6441}|Project2\\Project2.vcxproj|E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 28.12\\Project2\\Project2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD8EF5CD-D603-400C-AE3C-3E01B9CA6441}|Project2\\Project2.vcxproj|solutionrelative:Project2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector",
+              "ViewState": "AQIAAFwHAAAAAAAAAAAqwGQHAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-13T14:35:39.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 28.12\\Project2\\Project2\\Source.cpp",
+              "RelativeDocumentMoniker": "Project2\\Source.cpp",
+              "ToolTip": "E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 28.12\\Project2\\Project2\\Source.cpp",
+              "RelativeToolTip": "Project2\\Source.cpp",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-19T16:27:07.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

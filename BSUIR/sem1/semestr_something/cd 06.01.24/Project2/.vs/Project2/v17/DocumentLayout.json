@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 06.01.24\\Project2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A67BBA-0BFD-4072-94DE-8E0E45D6F933}|Project2\\Project2.vcxproj|E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 06.01.24\\Project2\\Project2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A67BBA-0BFD-4072-94DE-8E0E45D6F933}|Project2\\Project2.vcxproj|solutionrelative:Project2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 06.01.24\\Project2\\Project2\\Source.cpp",
+              "RelativeDocumentMoniker": "Project2\\Source.cpp",
+              "ToolTip": "E:\\repos\\1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 \u043F\u0440\u043E\u0447\u0435\u0435\\cd 06.01.24\\Project2\\Project2\\Source.cpp",
+              "RelativeToolTip": "Project2\\Source.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-24T12:22:58.198Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

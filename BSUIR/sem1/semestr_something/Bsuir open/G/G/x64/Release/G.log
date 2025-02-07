@@ -1,0 +1,40 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree(1252,36): error C2100: нельзя разыменовать операнд типа "_Iter"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree(1252,36): error C2100:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree(1252,36): error C2100:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree(1252,36): error C2100:             _Iter=__int64
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree(1252,36): error C2100:         ]
+  (компиляция исходного файла "Source.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree(1252,36):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	E:\repos\1 семестр прочее\Bsuir open\G\G\Source.cpp(38,10):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<__int64>(_Iter,_Iter)"
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=__int64
+          ]
+  		E:\repos\1 семестр прочее\Bsuir open\G\G\Source.cpp(38,17):
+  		см. первую ссылку на "std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert" в "main"
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree(1260,9):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_range_unchecked<_Iter,_Iter>(_Iter,const _Sent)"
+          with
+          [
+              _Kty=int,
+              _Ty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,int>>,
+              _Iter=__int64,
+              _Sent=__int64
+          ]
+  

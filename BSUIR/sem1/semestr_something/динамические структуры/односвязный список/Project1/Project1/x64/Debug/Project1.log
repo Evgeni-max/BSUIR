@@ -1,0 +1,109 @@
+﻿  Source.cpp
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27): error C2665: "List<int>::cell<T>::cell": ни одна перегруженная функция не может преобразовать все типы аргументов
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27): error C2665:         with
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27): error C2665:         [
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27): error C2665:             T=int
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27): error C2665:         ]
+  E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(22,1):
+  может быть "List<int>::cell<T>::cell(List<T>::cell<T> &&)"
+          with
+          [
+              T=int
+          ]
+  	E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27):
+  	"List<int>::cell<T>::cell(List<T>::cell<T> &&)": невозможно преобразовать аргумент 1 из "T" в "List<int>::cell<T> &&"
+          with
+          [
+              T=int
+          ]
+  		E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,28):
+  		Причина: невозможно преобразовать "T" в "List<int>::cell<T>"
+          with
+          [
+              T=int
+          ]
+  E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(22,1):
+  или       "List<int>::cell<T>::cell(const List<T>::cell<T> &)"
+          with
+          [
+              T=int
+          ]
+  	E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27):
+  	"List<int>::cell<T>::cell(const List<T>::cell<T> &)": невозможно преобразовать аргумент 1 из "T" в "const List<int>::cell<T> &"
+          with
+          [
+              T=int
+          ]
+  		E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,28):
+  		Причина: невозможно преобразовать "T" в "const List<int>::cell<T>"
+          with
+          [
+              T=int
+          ]
+  E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27):
+  при попытке сопоставить список аргументов "(T)"
+          with
+          [
+              T=int
+          ]
+  E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(41,27):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(71,15):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "List<int>"
+  	E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(39,33):
+  	во время компиляции функции-члена класс шаблон "void List<int>::push_back(T)"
+          with
+          [
+              T=int
+          ]
+  		E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(72,16):
+  		см. первую ссылку на "List<int>::push_back" в "main"
+  
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43): error C2665: "List<int>::cell<T>::cell": ни одна перегруженная функция не может преобразовать все типы аргументов
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43): error C2665:         with
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43): error C2665:         [
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43): error C2665:             T=int
+E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43): error C2665:         ]
+  E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(22,1):
+  может быть "List<int>::cell<T>::cell(List<T>::cell<T> &&)"
+          with
+          [
+              T=int
+          ]
+  	E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43):
+  	"List<int>::cell<T>::cell(List<T>::cell<T> &&)": невозможно преобразовать аргумент 1 из "T" в "List<int>::cell<T> &&"
+          with
+          [
+              T=int
+          ]
+  		E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,44):
+  		Причина: невозможно преобразовать "T" в "List<int>::cell<T>"
+          with
+          [
+              T=int
+          ]
+  E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(22,1):
+  или       "List<int>::cell<T>::cell(const List<T>::cell<T> &)"
+          with
+          [
+              T=int
+          ]
+  	E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43):
+  	"List<int>::cell<T>::cell(const List<T>::cell<T> &)": невозможно преобразовать аргумент 1 из "T" в "const List<int>::cell<T> &"
+          with
+          [
+              T=int
+          ]
+  		E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,44):
+  		Причина: невозможно преобразовать "T" в "const List<int>::cell<T>"
+          with
+          [
+              T=int
+          ]
+  E:\repos\динамические структуры\односвязный список\Project1\Project1\Source.cpp(50,43):
+  при попытке сопоставить список аргументов "(T)"
+          with
+          [
+              T=int
+          ]
+  

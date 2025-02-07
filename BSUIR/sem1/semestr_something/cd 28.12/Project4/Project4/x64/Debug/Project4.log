@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\repos\1 семестр прочее\cd 28.12\Project4\Project4\Source.cpp(148,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\repos\1 семестр прочее\cd 28.12\Project4\Project4\Source.cpp(167,17): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  Project4.vcxproj -> E:\repos\1 семестр прочее\cd 28.12\Project4\x64\Debug\Project4.exe

@@ -1,0 +1,43 @@
+﻿  Source.cpp
+E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(92,15): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(92,15):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(278,17):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Vector<int,const allocator<T>>"
+          with
+          [
+              T=int
+          ]
+  	E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(90,5):
+  	во время компиляции функции-члена класс шаблон "Vector<int,const allocator<T>>::Vector(size_t,const T &,Alloc &)"
+          with
+          [
+              T=int,
+              Alloc=const allocator<int>
+          ]
+  		E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(278,20):
+  		см. первую ссылку на "Vector<int,const allocator<T>>::Vector" в "main"
+          with
+          [
+              T=int
+          ]
+  
+E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(235,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(235,17):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(286,8):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void Vector<int,const allocator<T>>::emplace<int>(iterator<T>,int)"
+          with
+          [
+              T=int
+          ]
+  		E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(286,16):
+  		см. первую ссылку на "Vector<int,const allocator<T>>::emplace" в "main"
+          with
+          [
+              T=int
+          ]
+  
+E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(235,38): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\repos\1 семестр прочее\Vector\Vector\Source.cpp(245,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Vector.vcxproj -> E:\repos\1 семестр прочее\Vector\x64\Debug\Vector.exe

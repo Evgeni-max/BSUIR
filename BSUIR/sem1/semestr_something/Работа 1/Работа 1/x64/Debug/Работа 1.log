@@ -1,0 +1,9 @@
+﻿  Работа 1.cpp
+C:\Users\Евгений\source\repos\Работа 1\Работа 1\Работа 1.cpp(3,19): error C3533: параметр не может иметь тип, содержащий "auto"
+C:\Users\Евгений\source\repos\Работа 1\Работа 1\Работа 1.cpp(6,5): error C2065: func: необъявленный идентификатор
+C:\Users\Евгений\source\repos\Работа 1\Работа 1\Работа 1.cpp(16,9): error C2664: "void printer(unknown-type)": невозможно преобразовать аргумент 1 из "Message::print::<lambda_1>" в "unknown-type"
+  C:\Users\Евгений\source\repos\Работа 1\Работа 1\Работа 1.cpp(3,6):
+   см. объявление "printer"
+  C:\Users\Евгений\source\repos\Работа 1\Работа 1\Работа 1.cpp(16,9):
+  при попытке сопоставить список аргументов "(Message::print::<lambda_1>)"
+  
