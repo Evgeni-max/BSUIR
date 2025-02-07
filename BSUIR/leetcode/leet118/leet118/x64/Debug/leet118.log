@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\repos\leetcode\leet118\leet118\Source.cpp(15,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\repos\leetcode\leet118\leet118\Source.cpp(39,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  leet118.vcxproj -> E:\repos\leetcode\leet118\x64\Debug\leet118.exe

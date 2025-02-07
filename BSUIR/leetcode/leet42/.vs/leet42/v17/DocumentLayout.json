@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\leetcode\\leet42\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{129A0EFE-2F8D-40C3-BB19-D2A9E1EF17C0}|leet42\\leet42.vcxproj|E:\\repos\\leetcode\\leet42\\leet42\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{129A0EFE-2F8D-40C3-BB19-D2A9E1EF17C0}|leet42\\leet42.vcxproj|solutionrelative:leet42\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "E:\\repos\\leetcode\\leet42\\leet42\\Source.cpp",
+              "RelativeDocumentMoniker": "leet42\\Source.cpp",
+              "ToolTip": "E:\\repos\\leetcode\\leet42\\leet42\\Source.cpp",
+              "RelativeToolTip": "leet42\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-19T11:19:29.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

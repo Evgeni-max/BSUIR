@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\repos\leetcode\leeet11\leeet11\Source.cpp(9,22): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  leeet11.vcxproj -> E:\repos\leetcode\leeet11\x64\Debug\leeet11.exe
