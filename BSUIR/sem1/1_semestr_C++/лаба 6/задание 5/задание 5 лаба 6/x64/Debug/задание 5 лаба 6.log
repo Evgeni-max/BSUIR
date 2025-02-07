@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (задание 5 лаба 6.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Source.cpp
+C:\Users\Евгений\source\repos\лаба 6\задание 5\задание 5 лаба 6\Source.cpp(50,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\задание 5\задание 5 лаба 6\Source.cpp(53,40): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\задание 5\задание 5 лаба 6\Source.cpp(67,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\задание 5\задание 5 лаба 6\Source.cpp(70,40): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  задание 5 лаба 6.vcxproj -> C:\Users\Евгений\source\repos\лаба 6\задание 5\x64\Debug\задание 5.exe

@@ -1,0 +1,14 @@
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\bin\Debug\net8.0\353503_Martynkech_Lab2.exe
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\bin\Debug\net8.0\353503_Martynkech_Lab2.deps.json
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\bin\Debug\net8.0\353503_Martynkech_Lab2.runtimeconfig.json
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\bin\Debug\net8.0\353503_Martynkech_Lab2.dll
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\bin\Debug\net8.0\353503_Martynkech_Lab2.pdb
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\353503_Martynkech_Lab2.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\353503_Martynkech_Lab2.AssemblyInfoInputs.cache
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\353503_Martynkech_Lab2.AssemblyInfo.cs
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\353503_Martynkech_Lab2.csproj.CoreCompileInputs.cache
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\353503_Martynkech_Lab2.dll
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\refint\353503_Martynkech_Lab2.dll
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\353503_Martynkech_Lab2.pdb
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\353503_Martynkech_Lab2.genruntimeconfig.cache
+E:\repos\3 семестр C#\353503_Martynkech_Lab2\353503_Martynkech_Lab2\obj\Debug\net8.0\ref\353503_Martynkech_Lab2.dll

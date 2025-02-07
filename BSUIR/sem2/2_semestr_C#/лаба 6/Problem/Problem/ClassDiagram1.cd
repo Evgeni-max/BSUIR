@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Problem.Classes.CosmoObject">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAACAASAAAAAAAAAAAAAAACEAAA=</HashCode>
+      <FileName>Classes\CosmoObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Problem.Classes.BlackHole">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\BlackHole.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CosmoObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Problem.Classes.Earth">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAACAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Classes\Earth.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Planet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Problem.Classes.Planet">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAACAAAAAgAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Planet.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CosmoObject" />
+      <Property Name="CosmoObject1" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,6 @@
+﻿  input.cpp
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\functions\input.cpp(56,67): warning C4244: аргумент: преобразование "double" в "__int64", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\functions\input.cpp(56,47): warning C4244: =: преобразование "__int64" в "double", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\functions\input.cpp(59,71): warning C4244: аргумент: преобразование "double" в "__int64", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\functions\input.cpp(59,51): warning C4244: =: преобразование "__int64" в "double", возможна потеря данных
+  functions.vcxproj -> C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\x64\Debug\functions.lib

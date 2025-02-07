@@ -1,0 +1,44 @@
+[
+  {
+    "City": "Moscow",
+    "BagajeDepartment": {
+      "CountOfBagaje": 2000,
+      "RentCost": 1000
+    }
+  },
+  {
+    "City": "Ekaterinburg",
+    "BagajeDepartment": {
+      "CountOfBagaje": 1600,
+      "RentCost": 800
+    }
+  },
+  {
+    "City": "Leningrad",
+    "BagajeDepartment": {
+      "CountOfBagaje": 1300,
+      "RentCost": 600
+    }
+  },
+  {
+    "City": "Voroneg",
+    "BagajeDepartment": {
+      "CountOfBagaje": 700,
+      "RentCost": 500
+    }
+  },
+  {
+    "City": "Novosibirsk",
+    "BagajeDepartment": {
+      "CountOfBagaje": 400,
+      "RentCost": 400
+    }
+  },
+  {
+    "City": "Omsk",
+    "BagajeDepartment": {
+      "CountOfBagaje": 200,
+      "RentCost": 300
+    }
+  }
+]

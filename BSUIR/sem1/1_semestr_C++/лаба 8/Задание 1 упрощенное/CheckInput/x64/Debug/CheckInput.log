@@ -1,0 +1,14 @@
+﻿  chek.cpp
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(15,17): warning C4477: "scanf_s": в строке форматирования "%s" требуется аргумент типа "unsigned int", но вариативный аргумент "2" имеет тип "unsigned __int64"
+  C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(15,17):
+  этот аргумент используется в качестве размера буфера
+  
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(27,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(69,17): warning C4477: "scanf_s": в строке форматирования "%s" требуется аргумент типа "unsigned int", но вариативный аргумент "2" имеет тип "unsigned __int64"
+  C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(69,17):
+  этот аргумент используется в качестве размера буфера
+  
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(81,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(129,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\CheckInput\chek.cpp(130,40): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  CheckInput.vcxproj -> C:\Users\Евгений\source\repos\лаба 8\Задание 1 упрощенное\x64\Debug\CheckInput.lib

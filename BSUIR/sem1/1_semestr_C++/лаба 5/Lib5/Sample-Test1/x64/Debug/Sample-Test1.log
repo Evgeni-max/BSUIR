@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Sample-Test1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  test.cpp
+C:\Users\Евгений\source\repos\лаба 5\Lib5\Sample-Test1\test.cpp(18,1): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "TEST"
+C:\Users\Евгений\source\repos\лаба 5\Lib5\Sample-Test1\test.cpp(42,1): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "TEST"
+C:\Users\Евгений\source\repos\лаба 5\Lib5\Sample-Test1\test.cpp(66,1): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "TEST"
+  Sample-Test1.vcxproj -> C:\Users\Евгений\source\repos\лаба 5\Lib5\x64\Debug\Sample-Test3.exe

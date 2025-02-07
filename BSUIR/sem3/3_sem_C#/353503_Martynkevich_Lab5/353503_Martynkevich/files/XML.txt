@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRailroadStation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RailroadStation>
+    <City>Moscow</City>
+    <BagajeDepartment>
+      <CountOfBagaje>2000</CountOfBagaje>
+      <RentCost>1000</RentCost>
+    </BagajeDepartment>
+  </RailroadStation>
+  <RailroadStation>
+    <City>Ekaterinburg</City>
+    <BagajeDepartment>
+      <CountOfBagaje>1600</CountOfBagaje>
+      <RentCost>800</RentCost>
+    </BagajeDepartment>
+  </RailroadStation>
+  <RailroadStation>
+    <City>Leningrad</City>
+    <BagajeDepartment>
+      <CountOfBagaje>1300</CountOfBagaje>
+      <RentCost>600</RentCost>
+    </BagajeDepartment>
+  </RailroadStation>
+  <RailroadStation>
+    <City>Voroneg</City>
+    <BagajeDepartment>
+      <CountOfBagaje>700</CountOfBagaje>
+      <RentCost>500</RentCost>
+    </BagajeDepartment>
+  </RailroadStation>
+  <RailroadStation>
+    <City>Novosibirsk</City>
+    <BagajeDepartment>
+      <CountOfBagaje>400</CountOfBagaje>
+      <RentCost>400</RentCost>
+    </BagajeDepartment>
+  </RailroadStation>
+  <RailroadStation>
+    <City>Omsk</City>
+    <BagajeDepartment>
+      <CountOfBagaje>200</CountOfBagaje>
+      <RentCost>300</RentCost>
+    </BagajeDepartment>
+  </RailroadStation>
+</ArrayOfRailroadStation>

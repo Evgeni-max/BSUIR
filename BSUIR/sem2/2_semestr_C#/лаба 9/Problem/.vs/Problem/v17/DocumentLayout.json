@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\servises\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\servises\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\medics\\medic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\medics\\medic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\equipments\\iequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\equipments\\iequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\servises\\hirurgbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\servises\\hirurgbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\servises\\pediatrbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\servises\\pediatrbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\servises\\medsisterbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\servises\\medsisterbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\servises\\psihiatrbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\servises\\psihiatrbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 9\\problem\\problem\\servises\\abstractbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\servises\\abstractbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\medics\\pcihiatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\medics\\pcihiatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\equipments\\ucol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\equipments\\ucol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\medics\\pediatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\medics\\pediatr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\problem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\problem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\medics\\medsister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\medics\\medsister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\equipments\\bandage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\equipments\\bandage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\medics\\hirurg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\medics\\hirurg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\equipments\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\equipments\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\problem\\equipments\\mrt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9A3376C-A613-47A0-B6D9-FF063D06C0E9}|Problem\\Problem.csproj|solutionrelative:problem\\equipments\\mrt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Director.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\Director.cs",
+              "RelativeDocumentMoniker": "Problem\\servises\\Director.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\Director.cs",
+              "RelativeToolTip": "Problem\\servises\\Director.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:33:35.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HirurgBuilder.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\HirurgBuilder.cs",
+              "RelativeDocumentMoniker": "Problem\\servises\\HirurgBuilder.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\HirurgBuilder.cs",
+              "RelativeToolTip": "Problem\\servises\\HirurgBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:33:17.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PediatrBuilder.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\PediatrBuilder.cs",
+              "RelativeDocumentMoniker": "Problem\\servises\\PediatrBuilder.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\PediatrBuilder.cs",
+              "RelativeToolTip": "Problem\\servises\\PediatrBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:33:02.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedsisterBuilder.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\MedsisterBuilder.cs",
+              "RelativeDocumentMoniker": "Problem\\servises\\MedsisterBuilder.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\MedsisterBuilder.cs",
+              "RelativeToolTip": "Problem\\servises\\MedsisterBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:32:39.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PsihiatrBuilder.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\PsihiatrBuilder.cs",
+              "RelativeDocumentMoniker": "Problem\\servises\\PsihiatrBuilder.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\PsihiatrBuilder.cs",
+              "RelativeToolTip": "Problem\\servises\\PsihiatrBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:32:10.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AbstractBuilder.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\AbstractBuilder.cs",
+              "RelativeDocumentMoniker": "Problem\\servises\\AbstractBuilder.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\servises\\AbstractBuilder.cs",
+              "RelativeToolTip": "Problem\\servises\\AbstractBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:31:03.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "Problem\\ClassDiagram1.cd",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\ClassDiagram1.cd",
+              "RelativeToolTip": "Problem\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-04-16T07:44:32.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Pila.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Pila.cs",
+              "RelativeDocumentMoniker": "Problem\\equipments\\Pila.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Pila.cs",
+              "RelativeToolTip": "Problem\\equipments\\Pila.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:12:08.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Mrt.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Mrt.cs",
+              "RelativeDocumentMoniker": "Problem\\equipments\\Mrt.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Mrt.cs",
+              "RelativeToolTip": "Problem\\equipments\\Mrt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:11:37.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Bandage.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Bandage.cs",
+              "RelativeDocumentMoniker": "Problem\\equipments\\Bandage.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Bandage.cs",
+              "RelativeToolTip": "Problem\\equipments\\Bandage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:11:24.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ucol.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Ucol.cs",
+              "RelativeDocumentMoniker": "Problem\\equipments\\Ucol.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\Ucol.cs",
+              "RelativeToolTip": "Problem\\equipments\\Ucol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:10:51.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Problem.csproj",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\Problem.csproj",
+              "RelativeDocumentMoniker": "Problem\\Problem.csproj",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\Problem.csproj",
+              "RelativeToolTip": "Problem\\Problem.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-16T06:53:02.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEquipment.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\IEquipment.cs",
+              "RelativeDocumentMoniker": "Problem\\equipments\\IEquipment.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\equipments\\IEquipment.cs",
+              "RelativeToolTip": "Problem\\equipments\\IEquipment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:09:32.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pcihiatr.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Pcihiatr.cs",
+              "RelativeDocumentMoniker": "Problem\\medics\\Pcihiatr.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Pcihiatr.cs",
+              "RelativeToolTip": "Problem\\medics\\Pcihiatr.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:52:23.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pediatr.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Pediatr.cs",
+              "RelativeDocumentMoniker": "Problem\\medics\\Pediatr.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Pediatr.cs",
+              "RelativeToolTip": "Problem\\medics\\Pediatr.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:52:00.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Medsister.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Medsister.cs",
+              "RelativeDocumentMoniker": "Problem\\medics\\Medsister.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Medsister.cs",
+              "RelativeToolTip": "Problem\\medics\\Medsister.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:51:46.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Hirurg.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Hirurg.cs",
+              "RelativeDocumentMoniker": "Problem\\medics\\Hirurg.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Hirurg.cs",
+              "RelativeToolTip": "Problem\\medics\\Hirurg.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:51:35.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Medic.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Medic.cs",
+              "RelativeDocumentMoniker": "Problem\\medics\\Medic.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\medics\\Medic.cs",
+              "RelativeToolTip": "Problem\\medics\\Medic.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwBIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:51:07.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\Program.cs",
+              "RelativeDocumentMoniker": "Problem\\Program.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 9\\Problem\\Problem\\Program.cs",
+              "RelativeToolTip": "Problem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T06:57:34.45Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

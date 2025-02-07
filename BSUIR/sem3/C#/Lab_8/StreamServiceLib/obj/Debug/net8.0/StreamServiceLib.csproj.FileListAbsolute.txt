@@ -1,0 +1,12 @@
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\bin\Debug\net8.0\StreamServiceLib.deps.json
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\bin\Debug\net8.0\StreamServiceLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\bin\Debug\net8.0\StreamServiceLib.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\StreamServiceLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\StreamServiceLib.AssemblyInfoInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\StreamServiceLib.AssemblyInfo.cs
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\StreamServiceLib.csproj.CoreCompileInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\StreamServiceLib.sourcelink.json
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\StreamServiceLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\refint\StreamServiceLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\StreamServiceLib.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_8\StreamServiceLib\obj\Debug\net8.0\ref\StreamServiceLib.dll

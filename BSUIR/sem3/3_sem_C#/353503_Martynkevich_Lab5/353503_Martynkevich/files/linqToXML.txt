@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RailroadStationsofThePlanet>
+  <Moscow>
+    <RateCost>1000</RateCost>
+    <Countofbagaje>2000</Countofbagaje>
+  </Moscow>
+  <Ekaterinburg>
+    <RateCost>800</RateCost>
+    <Countofbagaje>1600</Countofbagaje>
+  </Ekaterinburg>
+  <Leningrad>
+    <RateCost>600</RateCost>
+    <Countofbagaje>1300</Countofbagaje>
+  </Leningrad>
+  <Voroneg>
+    <RateCost>500</RateCost>
+    <Countofbagaje>700</Countofbagaje>
+  </Voroneg>
+  <Novosibirsk>
+    <RateCost>400</RateCost>
+    <Countofbagaje>400</Countofbagaje>
+  </Novosibirsk>
+  <Omsk>
+    <RateCost>300</RateCost>
+    <Countofbagaje>200</Countofbagaje>
+  </Omsk>
+</RailroadStationsofThePlanet>

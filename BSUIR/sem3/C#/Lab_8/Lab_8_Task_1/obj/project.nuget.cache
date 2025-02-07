@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+jdMtvZci4A=",
+  "success": true,
+  "projectFilePath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\Lab_8_Task_1\\Lab_8_Task_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Евгений\\.nuget\\packages\\loremnet\\2.0.0\\loremnet.2.0.0.nupkg.sha512",
+    "C:\\Users\\Евгений\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

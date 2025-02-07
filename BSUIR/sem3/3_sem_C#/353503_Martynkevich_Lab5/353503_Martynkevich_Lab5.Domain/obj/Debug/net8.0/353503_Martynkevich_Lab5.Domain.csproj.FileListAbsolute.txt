@@ -1,0 +1,11 @@
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\bin\Debug\net8.0\353503_Martynkevich_Lab5.Domain.deps.json
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\bin\Debug\net8.0\353503_Martynkevich_Lab5.Domain.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\bin\Debug\net8.0\353503_Martynkevich_Lab5.Domain.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\353503_Martynkevich_Lab5.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\353503_Martynkevich_Lab5.Domain.AssemblyInfoInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\353503_Martynkevich_Lab5.Domain.AssemblyInfo.cs
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\353503_Martynkevich_Lab5.Domain.csproj.CoreCompileInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\353503_Martynkevich_Lab5.Domain.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\refint\353503_Martynkevich_Lab5.Domain.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\353503_Martynkevich_Lab5.Domain.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5.Domain\obj\Debug\net8.0\ref\353503_Martynkevich_Lab5.Domain.dll

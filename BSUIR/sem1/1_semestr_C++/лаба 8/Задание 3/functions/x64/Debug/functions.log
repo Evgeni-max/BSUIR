@@ -1,0 +1,10 @@
+﻿  addData.cpp
+C:\Users\Евгений\source\repos\лаба 8\Задание 3\functions\addData.cpp(10,27): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  begin.cpp
+  deleteData.cpp
+  exportDatatoFile.cpp
+  importDatafromFile.cpp
+  resizeData.cpp
+  viewdata.cpp
+  Создание кода...
+  functions.vcxproj -> C:\Users\Евгений\source\repos\лаба 8\Задание 3\x64\Debug\functions.lib

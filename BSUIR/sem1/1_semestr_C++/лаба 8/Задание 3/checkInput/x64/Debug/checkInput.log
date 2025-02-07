@@ -1,0 +1,6 @@
+﻿  chekInput.cpp
+C:\Users\Евгений\source\repos\лаба 8\Задание 3\checkInput\chekInput.cpp(27,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\source\repos\лаба 8\Задание 3\checkInput\chekInput.cpp(81,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Евгений\source\repos\лаба 8\Задание 3\checkInput\chekInput.cpp(129,23): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 8\Задание 3\checkInput\chekInput.cpp(130,40): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  checkInput.vcxproj -> C:\Users\Евгений\source\repos\лаба 8\Задание 3\x64\Debug\checkInput.lib

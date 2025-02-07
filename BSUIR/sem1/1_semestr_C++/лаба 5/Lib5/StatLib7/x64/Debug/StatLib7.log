@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Евгений\source\repos\лаба 5\Lib5\StatLib7\Source.cpp(23,38): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 5\Lib5\StatLib7\Source.cpp(26,26): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  StatLib7.vcxproj -> C:\Users\Евгений\source\repos\лаба 5\Lib5\x64\Debug\StatLib7-8.lib

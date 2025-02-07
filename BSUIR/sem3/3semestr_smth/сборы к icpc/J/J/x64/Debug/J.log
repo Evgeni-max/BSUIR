@@ -1,0 +1,26 @@
+﻿  Source.cpp
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,19): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,19): warning C4244:         with
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,19): warning C4244:         [
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,19): warning C4244:             _Ty=unsigned __int64
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,19): warning C4244:         ]
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,46): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,46): warning C4244:         with
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,46): warning C4244:         [
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,46): warning C4244:             _Ty=unsigned __int64
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,46): warning C4244:         ]
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,69): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,69): warning C4244:         with
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,69): warning C4244:         [
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,69): warning C4244:             _Ty=unsigned __int64
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,69): warning C4244:         ]
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,100): warning C4244: аргумент: преобразование "_Ty" в "int", возможна потеря данных
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,100): warning C4244:         with
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,100): warning C4244:         [
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,100): warning C4244:             _Ty=unsigned __int64
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,100): warning C4244:         ]
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(14,84): warning C4244: return: преобразование "unsigned __int64" в "int", возможна потеря данных
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(23,9): warning C4244: return: преобразование "unsigned __int64" в "int", возможна потеря данных
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(28,23): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\J\Source.cpp(28,20): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+  J.vcxproj -> E:\repos\bsuir\sem3\3semestr_smth\сборы к icpc\J\x64\Debug\J.exe

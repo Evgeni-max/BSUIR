@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\interfaces\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\interfaces\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\entities\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\entities\\worklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\entities\\worklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\entities\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\entities\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\entities\\eachwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\entities\\eachwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\interfaces\\icustomcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\interfaces\\icustomcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|e:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\353503_martynkech_lab2\\353503_martynkech_lab2\\collections\\mycustomcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848F3C0A-18EC-40E6-A05B-0E34FA48CB86}|353503_Martynkech_Lab2\\353503_Martynkech_Lab2.csproj|solutionrelative:353503_martynkech_lab2\\collections\\mycustomcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IWorker.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Interfaces\\IWorker.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Interfaces\\IWorker.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Interfaces\\IWorker.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Interfaces\\IWorker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:40:36.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkList.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\WorkList.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Entities\\WorkList.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\WorkList.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Entities\\WorkList.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:40:13.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\Worker.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Entities\\Worker.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\Worker.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Entities\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:39:56.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EachWork.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\EachWork.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Entities\\EachWork.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\EachWork.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Entities\\EachWork.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:39:05.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Journal.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\Journal.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Entities\\Journal.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Entities\\Journal.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Entities\\Journal.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:38:35.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICustomCollection.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Interfaces\\ICustomCollection.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Interfaces\\ICustomCollection.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Interfaces\\ICustomCollection.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Interfaces\\ICustomCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:37:52.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyCustomCollection.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Collections\\MyCustomCollection.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Collections\\MyCustomCollection.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Collections\\MyCustomCollection.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Collections\\MyCustomCollection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:37:29.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "353503_Martynkech_Lab2\\Program.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\353503_Martynkech_Lab2\\353503_Martynkech_Lab2\\Program.cs",
+              "RelativeToolTip": "353503_Martynkech_Lab2\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:32:57.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

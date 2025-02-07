@@ -1,0 +1,14 @@
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\bin\Debug\net8.0\353503_Martynkevich_4.exe
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\bin\Debug\net8.0\353503_Martynkevich_4.deps.json
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\bin\Debug\net8.0\353503_Martynkevich_4.runtimeconfig.json
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\bin\Debug\net8.0\353503_Martynkevich_4.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\bin\Debug\net8.0\353503_Martynkevich_4.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\353503_Martynkevich_4.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\353503_Martynkevich_4.AssemblyInfoInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\353503_Martynkevich_4.AssemblyInfo.cs
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\353503_Martynkevich_4.csproj.CoreCompileInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\353503_Martynkevich_4.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\refint\353503_Martynkevich_4.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\353503_Martynkevich_4.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\353503_Martynkevich_4.genruntimeconfig.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_4\353503_Martynkevich_4\obj\Debug\net8.0\ref\353503_Martynkevich_4.dll

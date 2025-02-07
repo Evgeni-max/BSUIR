@@ -1,0 +1,12 @@
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\bin\Debug\net8.0\CalculatorLib.deps.json
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\bin\Debug\net8.0\CalculatorLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\bin\Debug\net8.0\CalculatorLib.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\CalculatorLib.AssemblyInfoInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\CalculatorLib.AssemblyInfo.cs
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\CalculatorLib.csproj.CoreCompileInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\CalculatorLib.sourcelink.json
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\CalculatorLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\refint\CalculatorLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\CalculatorLib.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_7\CalculatorLib\obj\Debug\net8.0\ref\CalculatorLib.dll

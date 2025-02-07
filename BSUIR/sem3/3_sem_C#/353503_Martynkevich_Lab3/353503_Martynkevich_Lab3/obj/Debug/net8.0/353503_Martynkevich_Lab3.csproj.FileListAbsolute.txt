@@ -1,0 +1,14 @@
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\bin\Debug\net8.0\353503_Martynkevich_Lab3.exe
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\bin\Debug\net8.0\353503_Martynkevich_Lab3.deps.json
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\bin\Debug\net8.0\353503_Martynkevich_Lab3.runtimeconfig.json
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\bin\Debug\net8.0\353503_Martynkevich_Lab3.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\bin\Debug\net8.0\353503_Martynkevich_Lab3.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\353503_Martynkevich_Lab3.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\353503_Martynkevich_Lab3.AssemblyInfoInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\353503_Martynkevich_Lab3.AssemblyInfo.cs
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\353503_Martynkevich_Lab3.csproj.CoreCompileInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\353503_Martynkevich_Lab3.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\refint\353503_Martynkevich_Lab3.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\353503_Martynkevich_Lab3.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\353503_Martynkevich_Lab3.genruntimeconfig.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab3\353503_Martynkevich_Lab3\obj\Debug\net8.0\ref\353503_Martynkevich_Lab3.dll

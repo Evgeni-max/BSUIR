@@ -1,0 +1,2 @@
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\obj\Debug\353503_Martynkevich_Lab5.exe
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\obj\Debug\353503_Martynkevich_Lab5.pdb

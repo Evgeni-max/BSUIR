@@ -1,0 +1,7 @@
+E:\repos\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\bin\Debug\353503_Martynkevich_Lab5.exe.config
+E:\repos\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\bin\Debug\353503_Martynkevich_Lab5.exe
+E:\repos\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\bin\Debug\353503_Martynkevich_Lab5.pdb
+E:\repos\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\obj\Debug\353503_Martynkevich_Lab1.csproj.AssemblyReference.cache
+E:\repos\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\obj\Debug\353503_Martynkevich_Lab1.csproj.CoreCompileInputs.cache
+E:\repos\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\obj\Debug\353503_Martynkevich_Lab5.exe
+E:\repos\3 семестр C#\353503_Martynkevich_Lab5\353503_Martynkevich_Lab5\obj\Debug\353503_Martynkevich_Lab5.pdb

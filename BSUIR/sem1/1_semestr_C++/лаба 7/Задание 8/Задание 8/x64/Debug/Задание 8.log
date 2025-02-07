@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Евгений\source\repos\лаба 7\Задание 8\Задание 8\Source.cpp(44,35): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 7\Задание 8\Задание 8\Source.cpp(32,15): warning C4101: powe: неиспользованная локальная переменная
+C:\Users\Евгений\source\repos\лаба 7\Задание 8\Задание 8\Source.cpp(56,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Задание 8.vcxproj -> C:\Users\Евгений\source\repos\лаба 7\Задание 8\x64\Debug\Задание 8.exe

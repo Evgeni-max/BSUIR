@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\Lab_8_Task_1\\Lab_8_Task_1.csproj": {}
+  },
+  "projects": {
+    "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\Lab_8_Task_1\\Lab_8_Task_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\Lab_8_Task_1\\Lab_8_Task_1.csproj",
+        "projectName": "Lab_8_Task_1",
+        "projectPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\Lab_8_Task_1\\Lab_8_Task_1.csproj",
+        "packagesPath": "C:\\Users\\Евгений\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\Lab_8_Task_1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Евгений\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\PatientsLib\\PatientsLib.csproj": {
+                "projectPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\PatientsLib\\PatientsLib.csproj"
+              },
+              "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\StreamServiceLib\\StreamServiceLib.csproj": {
+                "projectPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\StreamServiceLib\\StreamServiceLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "LoremNET": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\PatientsLib\\PatientsLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\PatientsLib\\PatientsLib.csproj",
+        "projectName": "PatientsLib",
+        "projectPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\PatientsLib\\PatientsLib.csproj",
+        "packagesPath": "C:\\Users\\Евгений\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\PatientsLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Евгений\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\StreamServiceLib\\StreamServiceLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\StreamServiceLib\\StreamServiceLib.csproj",
+        "projectName": "StreamServiceLib",
+        "projectPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\StreamServiceLib\\StreamServiceLib.csproj",
+        "packagesPath": "C:\\Users\\Евгений\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\bsuir\\sem3\\лабы по шарпам\\Lab_8\\StreamServiceLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Евгений\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿  lib7.cpp
+C:\Users\Евгений\source\repos\лаба 7\Laba7\lab_for_lib7\lib7.cpp(58,35): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 7\Laba7\lab_for_lib7\lib7.cpp(44,15): warning C4101: powe: неиспользованная локальная переменная
+C:\Users\Евгений\source\repos\лаба 7\Laba7\lab_for_lib7\lib7.cpp(193,35): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 7\Laba7\lab_for_lib7\lib7.cpp(179,15): warning C4101: powe: неиспользованная локальная переменная
+C:\Users\Евгений\source\repos\лаба 7\Laba7\lab_for_lib7\lib7.cpp(587,35): warning C4244: -=: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 7\Laba7\lab_for_lib7\lib7.cpp(574,15): warning C4101: powe: неиспользованная локальная переменная
+C:\Users\Евгений\source\repos\лаба 7\Laba7\lab_for_lib7\lib7.cpp(599,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  lab_for_lib7.vcxproj -> C:\Users\Евгений\source\repos\лаба 7\Laba7\x64\Debug\lab_for_lib7.lib

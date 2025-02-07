@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sportsmen>
+  <Sportsman name="Kevin" age="42">
+    <SportType sportName="Tennis" sportPopularity="33" />
+  </Sportsman>
+  <Sportsman name="Semen" age="67">
+    <SportType sportName="Football" sportPopularity="73" />
+  </Sportsman>
+  <Sportsman name="Glebe" age="23">
+    <SportType sportName="Volleyball" sportPopularity="56" />
+  </Sportsman>
+  <Sportsman name="Tanya" age="56">
+    <SportType sportName="Cricket" sportPopularity="13" />
+  </Sportsman>
+  <Sportsman name="Henry" age="34">
+    <SportType sportName="Golf" sportPopularity="17" />
+  </Sportsman>
+  <Sportsman name="Stas" age="28">
+    <SportType sportName="Cybersport" sportPopularity="100" />
+  </Sportsman>
+</Sportsmen>

@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4923541C-8258-4AC3-894F-D0A082D50BED}|CalculatorLib\\CalculatorLib.csproj|G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\calculatorlib\\entities\\integralcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4923541C-8258-4AC3-894F-D0A082D50BED}|CalculatorLib\\CalculatorLib.csproj|solutionrelative:calculatorlib\\entities\\integralcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4923541C-8258-4AC3-894F-D0A082D50BED}|CalculatorLib\\CalculatorLib.csproj|G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\calculatorlib\\entities\\threadinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4923541C-8258-4AC3-894F-D0A082D50BED}|CalculatorLib\\CalculatorLib.csproj|solutionrelative:calculatorlib\\entities\\threadinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B61B373-74C7-4D30-86B5-5DB9F972F0C2}|Lab_7_Task_1\\Lab_7_Task_1.csproj|g:\\projects\\c#\\labs\\sem_3\\lab_7\\lab_7_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B61B373-74C7-4D30-86B5-5DB9F972F0C2}|Lab_7_Task_1\\Lab_7_Task_1.csproj|solutionrelative:lab_7_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThreadInformation.cs",
+              "DocumentMoniker": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\CalculatorLib\\Entities\\ThreadInformation.cs",
+              "RelativeDocumentMoniker": "CalculatorLib\\Entities\\ThreadInformation.cs",
+              "ToolTip": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\CalculatorLib\\Entities\\ThreadInformation.cs",
+              "RelativeToolTip": "CalculatorLib\\Entities\\ThreadInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T12:59:58.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntegralCalculator.cs",
+              "DocumentMoniker": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\CalculatorLib\\Entities\\IntegralCalculator.cs",
+              "RelativeDocumentMoniker": "CalculatorLib\\Entities\\IntegralCalculator.cs",
+              "ToolTip": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\CalculatorLib\\Entities\\IntegralCalculator.cs",
+              "RelativeToolTip": "CalculatorLib\\Entities\\IntegralCalculator.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwCkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T12:59:37.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\Lab_7_Task_1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_7_Task_1\\Program.cs",
+              "ToolTip": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_7\\Lab_7_Task_1\\Program.cs",
+              "RelativeToolTip": "Lab_7_Task_1\\Program.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwE8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T04:26:34.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

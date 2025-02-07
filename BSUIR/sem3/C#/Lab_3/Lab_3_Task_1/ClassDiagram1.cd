@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lab_1_Task_1_353502_BURCHUCK_Lab_1_.Entities.BasicRoom">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAECEAAAAAAAAAAAAABAAAAAQAAAAQEAAgAAAAoA=</HashCode>
+      <FileName>Entities\BasicRoom.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab_3_Task_1.Entities.Client">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAQAAAAEAAAACAAAAAgAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lab_1_Task_1_353502_BURCHUCK_Lab_1_.Entities.MyHotel">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Lab_1_Task_1_353502_BURCHUCK_Lab_1_.Entities.MyHotel.EventDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\MyHotel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAIDAIIAgQgAgEEAEAAAAAAAAAQAhg=</HashCode>
+      <FileName>Entities\MyHotel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab_3_Task_1.Services.Journal">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAACAA=</HashCode>
+      <FileName>Services\Journal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lab_3_Task_1.Services.JournalEnumerator">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAIAAAAAAAAAIAIAAAAAAAAAA=</HashCode>
+      <FileName>Services\Journal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,15 @@
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\bin\Debug\net8.0\SerializerLib.deps.json
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\bin\Debug\net8.0\SerializerLib.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\bin\Debug\net8.0\SerializerLib.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\bin\Debug\net8.0\353503_Martynkevich_Lab5.Domain.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\bin\Debug\net8.0\353503_Martynkevich_Lab5.Domain.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.csproj.AssemblyReference.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.AssemblyInfoInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.AssemblyInfo.cs
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.csproj.CoreCompileInputs.cache
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\Serializ.8EEFA712.Up2Date
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\refint\SerializerLib.dll
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\SerializerLib.pdb
+E:\repos\bsuir\sem3\3 семестр C#\353503_Martynkevich_Lab5\SerializerLib\obj\Debug\net8.0\ref\SerializerLib.dll

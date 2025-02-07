@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\Евгений\source\repos\лаба 6\Задание 4\Задание 4\Source.cpp(19,7): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Задание 4\Задание 4\Source.cpp(61,16): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Задание 4\Задание 4\Source.cpp(80,8): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Задание 4\Задание 4\Source.cpp(83,26): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+  Задание 4.vcxproj -> C:\Users\Евгений\source\repos\лаба 6\Задание 4\x64\Debug\Задание 4.exe

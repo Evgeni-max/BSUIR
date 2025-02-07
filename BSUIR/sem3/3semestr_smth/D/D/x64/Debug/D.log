@@ -1,0 +1,6 @@
+﻿  Source.cpp
+E:\repos\3semestr_smth\D\D\Source.cpp(15,27): warning C4018: <: несоответствие типов со знаком и без знака
+E:\repos\3semestr_smth\D\D\Source.cpp(23,27): warning C4018: <: несоответствие типов со знаком и без знака
+E:\repos\3semestr_smth\D\D\Source.cpp(27,27): warning C4018: <: несоответствие типов со знаком и без знака
+E:\repos\3semestr_smth\D\D\Source.cpp(54,27): warning C4018: <: несоответствие типов со знаком и без знака
+  D.vcxproj -> E:\repos\3semestr_smth\D\x64\Debug\D.exe

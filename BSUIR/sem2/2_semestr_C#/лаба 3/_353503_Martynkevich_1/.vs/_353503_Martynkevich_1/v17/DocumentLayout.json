@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 3\\_353503_Martynkevich_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54535021-547D-4AF1-8DE3-28A7EB263690}|_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 3\\_353503_martynkevich_1\\_353503_martynkevich_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54535021-547D-4AF1-8DE3-28A7EB263690}|_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj|solutionrelative:_353503_martynkevich_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54535021-547D-4AF1-8DE3-28A7EB263690}|_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 3\\_353503_martynkevich_1\\_353503_martynkevich_1\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54535021-547D-4AF1-8DE3-28A7EB263690}|_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj|solutionrelative:_353503_martynkevich_1\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54535021-547D-4AF1-8DE3-28A7EB263690}|_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj|e:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 c#\\\u043B\u0430\u0431\u0430 3\\_353503_martynkevich_1\\_353503_martynkevich_1\\_353503_martynkevich_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54535021-547D-4AF1-8DE3-28A7EB263690}|_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj|solutionrelative:_353503_martynkevich_1\\_353503_martynkevich_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_353503_Martynkevich_1.csproj",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 3\\_353503_Martynkevich_1\\_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj",
+              "RelativeDocumentMoniker": "_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 3\\_353503_Martynkevich_1\\_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj",
+              "RelativeToolTip": "_353503_Martynkevich_1\\_353503_Martynkevich_1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-22T07:45:11.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Converter.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 3\\_353503_Martynkevich_1\\_353503_Martynkevich_1\\Converter.cs",
+              "RelativeDocumentMoniker": "_353503_Martynkevich_1\\Converter.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 3\\_353503_Martynkevich_1\\_353503_Martynkevich_1\\Converter.cs",
+              "RelativeToolTip": "_353503_Martynkevich_1\\Converter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T05:23:07.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 3\\_353503_Martynkevich_1\\_353503_Martynkevich_1\\Program.cs",
+              "RelativeDocumentMoniker": "_353503_Martynkevich_1\\Program.cs",
+              "ToolTip": "E:\\repos\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 C#\\\u043B\u0430\u0431\u0430 3\\_353503_Martynkevich_1\\_353503_Martynkevich_1\\Program.cs",
+              "RelativeToolTip": "_353503_Martynkevich_1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T05:22:09.14Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

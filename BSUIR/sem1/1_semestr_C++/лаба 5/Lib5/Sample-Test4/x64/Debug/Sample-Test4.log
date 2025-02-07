@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  test.cpp
+C:\Users\Евгений\source\repos\лаба 5\Lib5\Sample-Test4\test.cpp(17,1): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "TEST"
+C:\Users\Евгений\source\repos\лаба 5\Lib5\Sample-Test4\test.cpp(36,1): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "TEST"
+C:\Users\Евгений\source\repos\лаба 5\Lib5\Sample-Test4\test.cpp(55,1): warning C4003: недостаточно аргументов для вызова макроса, подобного функции, "TEST"
+  Sample-Test4.vcxproj -> C:\Users\Евгений\source\repos\лаба 5\Lib5\x64\Debug\Sample-Test4.exe

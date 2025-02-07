@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|solutionrelative:lab_5_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5_task_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|solutionrelative:lab_5_task_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5_task_1\\lab_5_task_1(353502_burchuck_lab_5).csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|solutionrelative:lab_5_task_1\\lab_5_task_1(353502_burchuck_lab_5).csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5671F184-5236-47E7-8541-BCAFF6F76D35}|SerializerLib\\SerializerLib.csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\serializerlib\\serializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5671F184-5236-47E7-8541-BCAFF6F76D35}|SerializerLib\\SerializerLib.csproj|solutionrelative:serializerlib\\serializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5.domain\\iserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|solutionrelative:lab_5.domain\\iserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5.domain\\sportsman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|solutionrelative:lab_5.domain\\sportsman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5.domain\\sportsmanequalitycomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|solutionrelative:lab_5.domain\\sportsmanequalitycomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5.domain\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68012620-6063-4DCD-B62C-D8CAC50F119F}|Lab_5.Domain\\Lab_5.Domain.csproj|solutionrelative:lab_5.domain\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5_task_1\\files\\linq.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|solutionrelative:lab_5_task_1\\files\\linq.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|e:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\lab_5\\lab_5_task_1\\files\\xml.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7C7F48B4-EC8A-45AF-87DE-4DA977E11656}|Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj|solutionrelative:lab_5_task_1\\files\\xml.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj",
+              "RelativeDocumentMoniker": "Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj",
+              "RelativeToolTip": "Lab_5_Task_1\\Lab_5_Task_1(353502_BURCHUCK_Lab_5).csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T11:25:02.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab_5_Task_1\\appsettings.json",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\appsettings.json",
+              "RelativeToolTip": "Lab_5_Task_1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T20:13:23.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "linq.xml",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Files\\linq.xml",
+              "RelativeDocumentMoniker": "Lab_5_Task_1\\Files\\linq.xml",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Files\\linq.xml",
+              "RelativeToolTip": "Lab_5_Task_1\\Files\\linq.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-10T10:58:42.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sportsman.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\Sportsman.cs",
+              "RelativeDocumentMoniker": "Lab_5.Domain\\Sportsman.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\Sportsman.cs",
+              "RelativeToolTip": "Lab_5.Domain\\Sportsman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:55:02.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Serializer.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\SerializerLib\\Serializer.cs",
+              "RelativeDocumentMoniker": "SerializerLib\\Serializer.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\SerializerLib\\Serializer.cs",
+              "RelativeToolTip": "SerializerLib\\Serializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T16:17:28.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sport.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\Sport.cs",
+              "RelativeDocumentMoniker": "Lab_5.Domain\\Sport.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\Sport.cs",
+              "RelativeToolTip": "Lab_5.Domain\\Sport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:55:56.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_5_Task_1\\Program.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Program.cs",
+              "RelativeToolTip": "Lab_5_Task_1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T23:27:17.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "xml.xml",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Files\\xml.xml",
+              "RelativeDocumentMoniker": "Lab_5_Task_1\\Files\\xml.xml",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5_Task_1\\Files\\xml.xml",
+              "RelativeToolTip": "Lab_5_Task_1\\Files\\xml.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-10T10:58:43.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISerializer.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\ISerializer.cs",
+              "RelativeDocumentMoniker": "Lab_5.Domain\\ISerializer.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\ISerializer.cs",
+              "RelativeToolTip": "Lab_5.Domain\\ISerializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:43:51.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SportsmanEqualityComparer.cs",
+              "DocumentMoniker": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\SportsmanEqualityComparer.cs",
+              "RelativeDocumentMoniker": "Lab_5.Domain\\SportsmanEqualityComparer.cs",
+              "ToolTip": "E:\\repos\\bsuir\\sem3\\\u043B\u0430\u0431\u044B \u043F\u043E \u0448\u0430\u0440\u043F\u0430\u043C\\Lab_5\\Lab_5.Domain\\SportsmanEqualityComparer.cs",
+              "RelativeToolTip": "Lab_5.Domain\\SportsmanEqualityComparer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T18:27:52.526Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿  LABA.cpp
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(215,13): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(254,22): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(273,17): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(276,26): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(374,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(377,40): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(391,25): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(394,40): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(443,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(463,45): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Евгений\source\repos\лаба 6\Лаба 6\Lib_for_Lab\LABA.cpp(535,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Lib_for_Lab.vcxproj -> C:\Users\Евгений\source\repos\лаба 6\Лаба 6\x64\Debug\Lib_for_Lab.lib

@@ -1,0 +1,12 @@
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\bin\Debug\net8.0\Lab_5.Domain.deps.json
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\bin\Debug\net8.0\Lab_5.Domain.dll
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\bin\Debug\net8.0\Lab_5.Domain.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\Lab_5.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\Lab_5.Domain.AssemblyInfoInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\Lab_5.Domain.AssemblyInfo.cs
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\Lab_5.Domain.csproj.CoreCompileInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\Lab_5.Domain.sourcelink.json
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\Lab_5.Domain.dll
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\refint\Lab_5.Domain.dll
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\Lab_5.Domain.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_5\Lab_5.Domain\obj\Debug\net8.0\ref\Lab_5.Domain.dll

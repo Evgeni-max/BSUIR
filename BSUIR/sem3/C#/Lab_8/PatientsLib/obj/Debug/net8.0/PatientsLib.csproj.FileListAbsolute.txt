@@ -1,0 +1,12 @@
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\bin\Debug\net8.0\PatientsLib.deps.json
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\bin\Debug\net8.0\PatientsLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\bin\Debug\net8.0\PatientsLib.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\PatientsLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\PatientsLib.AssemblyInfoInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\PatientsLib.AssemblyInfo.cs
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\PatientsLib.csproj.CoreCompileInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\PatientsLib.sourcelink.json
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\PatientsLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\refint\PatientsLib.dll
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\PatientsLib.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_8\PatientsLib\obj\Debug\net8.0\ref\PatientsLib.dll

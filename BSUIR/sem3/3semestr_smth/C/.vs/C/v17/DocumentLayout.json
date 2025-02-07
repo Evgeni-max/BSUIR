@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repos\\3semestr_smth\\C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07DEFFA6-9A89-4A69-8B1A-F2C8813D7506}|C\\C.vcxproj|E:\\repos\\3semestr_smth\\C\\C\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{07DEFFA6-9A89-4A69-8B1A-F2C8813D7506}|C\\C.vcxproj|solutionrelative:C\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "E:\\repos\\3semestr_smth\\C\\C\\Source.cpp",
+              "RelativeDocumentMoniker": "C\\Source.cpp",
+              "ToolTip": "E:\\repos\\3semestr_smth\\C\\C\\Source.cpp",
+              "RelativeToolTip": "C\\Source.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T08:04:09.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

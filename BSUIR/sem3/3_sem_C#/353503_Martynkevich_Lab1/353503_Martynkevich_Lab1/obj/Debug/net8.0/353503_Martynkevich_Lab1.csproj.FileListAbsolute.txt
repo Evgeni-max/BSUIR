@@ -1,0 +1,14 @@
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\bin\Debug\net8.0\353503_Martynkevich_Lab1.exe
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\bin\Debug\net8.0\353503_Martynkevich_Lab1.deps.json
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\bin\Debug\net8.0\353503_Martynkevich_Lab1.runtimeconfig.json
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\bin\Debug\net8.0\353503_Martynkevich_Lab1.dll
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\bin\Debug\net8.0\353503_Martynkevich_Lab1.pdb
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\353503_Martynkevich_Lab1.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\353503_Martynkevich_Lab1.AssemblyInfoInputs.cache
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\353503_Martynkevich_Lab1.AssemblyInfo.cs
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\353503_Martynkevich_Lab1.csproj.CoreCompileInputs.cache
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\353503_Martynkevich_Lab1.dll
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\refint\353503_Martynkevich_Lab1.dll
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\353503_Martynkevich_Lab1.pdb
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\353503_Martynkevich_Lab1.genruntimeconfig.cache
+E:\repos\3 семестр C#\353503_Martynkevich_Lab1\353503_Martynkevich_Lab1\obj\Debug\net8.0\ref\353503_Martynkevich_Lab1.dll

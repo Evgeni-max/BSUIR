@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|g:\\projects\\c#\\labs\\sem_3\\lab_4\\lab_4_task_1\\entities\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|solutionrelative:lab_4_task_1\\entities\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\lab_4_task_1\\interfaces\\ifiliservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|solutionrelative:lab_4_task_1\\interfaces\\ifiliservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\lab_4_task_1\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|solutionrelative:lab_4_task_1\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\lab_4_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{701A0A72-45C9-4120-8336-78164793A08A}|Lab_4_Task_1\\Lab_4_Task_1.csproj|solutionrelative:lab_4_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Entities\\FileService.cs",
+              "RelativeDocumentMoniker": "Lab_4_Task_1\\Entities\\FileService.cs",
+              "ToolTip": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Entities\\FileService.cs",
+              "RelativeToolTip": "Lab_4_Task_1\\Entities\\FileService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T20:15:19.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFiliService.cs",
+              "DocumentMoniker": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Interfaces\\IFiliService.cs",
+              "RelativeDocumentMoniker": "Lab_4_Task_1\\Interfaces\\IFiliService.cs",
+              "ToolTip": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Interfaces\\IFiliService.cs",
+              "RelativeToolTip": "Lab_4_Task_1\\Interfaces\\IFiliService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T20:12:45.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "Lab_4_Task_1\\Entities\\Patient.cs",
+              "ToolTip": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Entities\\Patient.cs",
+              "RelativeToolTip": "Lab_4_Task_1\\Entities\\Patient.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T19:46:12.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_4_Task_1\\Program.cs",
+              "ToolTip": "G:\\Projects\\C#\\Labs\\SEM_3\\Lab_4\\Lab_4_Task_1\\Program.cs",
+              "RelativeToolTip": "Lab_4_Task_1\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T17:48:22.994Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

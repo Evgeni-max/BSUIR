@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSportsman xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sportsman>
+    <Name>Kevin</Name>
+    <Age>42</Age>
+    <SportTypeName>Tennis</SportTypeName>
+    <SportTypePopularity>33</SportTypePopularity>
+  </Sportsman>
+  <Sportsman>
+    <Name>Semen</Name>
+    <Age>67</Age>
+    <SportTypeName>Football</SportTypeName>
+    <SportTypePopularity>73</SportTypePopularity>
+  </Sportsman>
+  <Sportsman>
+    <Name>Glebe</Name>
+    <Age>23</Age>
+    <SportTypeName>Volleyball</SportTypeName>
+    <SportTypePopularity>56</SportTypePopularity>
+  </Sportsman>
+  <Sportsman>
+    <Name>Tanya</Name>
+    <Age>56</Age>
+    <SportTypeName>Cricket</SportTypeName>
+    <SportTypePopularity>13</SportTypePopularity>
+  </Sportsman>
+  <Sportsman>
+    <Name>Henry</Name>
+    <Age>34</Age>
+    <SportTypeName>Golf</SportTypeName>
+    <SportTypePopularity>17</SportTypePopularity>
+  </Sportsman>
+  <Sportsman>
+    <Name>Stas</Name>
+    <Age>28</Age>
+    <SportTypeName>Cybersport</SportTypeName>
+    <SportTypePopularity>100</SportTypePopularity>
+  </Sportsman>
+</ArrayOfSportsman>

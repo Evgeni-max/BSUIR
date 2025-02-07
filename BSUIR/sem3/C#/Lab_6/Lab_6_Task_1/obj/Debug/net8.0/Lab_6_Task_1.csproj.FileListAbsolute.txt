@@ -1,0 +1,29 @@
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.exe
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.deps.json
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.runtimeconfig.json
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.dll
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.AssemblyInfoInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.AssemblyInfo.cs
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.csproj.CoreCompileInputs.cache
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.sourcelink.json
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.dll
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\refint\Lab_6_Task_1.dll
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.pdb
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.genruntimeconfig.cache
+G:\Projects\C#\Labs\SEM_3\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\ref\Lab_6_Task_1.dll
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.exe
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.deps.json
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.runtimeconfig.json
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.dll
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\bin\Debug\net8.0\Lab_6_Task_1.pdb
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.AssemblyInfoInputs.cache
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.AssemblyInfo.cs
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.csproj.CoreCompileInputs.cache
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.dll
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\refint\Lab_6_Task_1.dll
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.pdb
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\Lab_6_Task_1.genruntimeconfig.cache
+E:\repos\bsuir\sem3\лабы по шарпам\Lab_6\Lab_6_Task_1\obj\Debug\net8.0\ref\Lab_6_Task_1.dll
