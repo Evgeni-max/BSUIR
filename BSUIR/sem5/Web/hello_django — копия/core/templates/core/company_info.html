@@ -1,0 +1,90 @@
+{% extends "core/base.html" %}
+
+{% block title %}О компании - Аптека "Здоровье"{% endblock %}
+{% block meta_description %}Информация о компании аптеки "Здоровье" - история, реквизиты, сертификаты и достижения. Узнайте больше о нашем опыте в фармацевтической сфере.{% endblock %}
+
+{% block content %}
+<div class="grid">
+    <div>
+        <h1>🏥 {{ info.name }}</h1>
+        {% if info.logo %}
+            <img src="{{ info.logo.url }}" alt="Логотип компании" style="max-width: 200px; height: auto; border-radius: 8px; margin: 1rem 0;">
+        {% endif %}
+    </div>
+    
+    <div>
+        <h2>🎉 Видео о компании</h2>
+        <video width="100%" height="315" controls style="border-radius: 8px;">
+            <source src="/media/videos/birthday_video.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео элемент.
+        </video>
+    </div>
+</div>
+
+<div class="card" style="margin: 2rem 0;">
+    <h2>📖 О нас</h2>
+    <p>{{ info.description }}</p>
+</div>
+
+{% if info.history %}
+<div class="card" style="margin: 2rem 0;">
+    <h2>📅 История по годам</h2>
+    <div style="white-space: pre-line;">{{ info.history }}</div>
+</div>
+{% endif %}
+
+{% if info.requisites %}
+<div class="card" style="margin: 2rem 0;">
+    <h2>📋 Реквизиты</h2>
+    <div style="white-space: pre-line;">{{ info.requisites }}</div>
+</div>
+{% endif %}
+
+{% if info.certificate %}
+<div class="card" style="margin: 2rem 0; background: #f8f9fa; border: 2px solid #28a745;">
+    <h2>🏆 Сертификат качества</h2>
+    <div style="white-space: pre-line; font-family: 'Times New Roman', serif; line-height: 1.8;">{{ info.certificate }}</div>
+</div>
+{% endif %}
+
+<!-- Дополнительная информация о компании -->
+<div class="card" style="margin: 2rem 0;">
+    <h2>🎯 Наши принципы</h2>
+    <ul style="list-style: none; padding: 0;">
+        <li style="margin: 1rem 0; padding: 1rem; background: #e8f5e8; border-radius: 8px;">
+            <strong>🏥 Качество</strong> - Мы работаем только с проверенными поставщиками и сертифицированными препаратами
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: #e3f2fd; border-radius: 8px;">
+            <strong>👥 Профессионализм</strong> - Наши фармацевты имеют высшее образование и регулярно повышают квалификацию
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: #fff3e0; border-radius: 8px;">
+            <strong>⚡ Скорость</strong> - Быстрое обслуживание и оперативная доставка заказов
+        </li>
+        <li style="margin: 1rem 0; padding: 1rem; background: #fce4ec; border-radius: 8px;">
+            <strong>💝 Забота</strong> - Индивидуальный подход к каждому клиенту и консультации по применению препаратов
+        </li>
+    </ul>
+</div>
+
+<div class="card" style="margin: 2rem 0;">
+    <h2>📊 Наши достижения</h2>
+    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+        <div style="text-align: center; padding: 1rem; background: #e8f5e8; border-radius: 8px;">
+            <h3 style="color: #27ae60; font-size: 2rem; margin: 0;">15+</h3>
+            <p>Лет успешной работы</p>
+        </div>
+        <div style="text-align: center; padding: 1rem; background: #e3f2fd; border-radius: 8px;">
+            <h3 style="color: #2196f3; font-size: 2rem; margin: 0;">5000+</h3>
+            <p>Довольных клиентов</p>
+        </div>
+        <div style="text-align: center; padding: 1rem; background: #fff3e0; border-radius: 8px;">
+            <h3 style="color: #ff9800; font-size: 2rem; margin: 0;">1000+</h3>
+            <p>Наименований товаров</p>
+        </div>
+        <div style="text-align: center; padding: 1rem; background: #fce4ec; border-radius: 8px;">
+            <h3 style="color: #e91e63; font-size: 2rem; margin: 0;">24/7</h3>
+            <p>Круглосуточная поддержка</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

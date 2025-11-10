@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block meta_description %}Онлайн аптека с широким ассортиментом лекарственных препаратов, медицинских товаров и консультациями специалистов{% endblock %}">
+    <meta name="keywords" content="{% block meta_keywords %}аптека, лекарства, медикаменты, здоровье, лечение, препараты{% endblock %}">
+    <meta name="author" content="Аптека">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="{% block og_title %}Аптека{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Онлайн аптека с широким ассортиментом лекарственных препаратов{% endblock %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta property="og:image" content="{% block og_image %}{{ request.scheme }}://{{ request.get_host }}/static/images/logo.png{% endblock %}">
+    
+    <title>{% block title %}Аптека{% endblock %}</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="/static/images/favicon.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon.jpg">
+    <link rel="shortcut icon" href="/static/images/favicon.jpg">
+    
+    <!-- CSS -->
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: #2c3e50; color: white; padding: 1rem 0; }
+        nav { background: #34495e; }
+        nav ul { list-style: none; display: flex; flex-wrap: wrap; }
+        nav li { margin: 0; }
+        nav a { display: block; padding: 1rem; color: white; text-decoration: none; transition: background 0.3s; }
+        nav a:hover { background: #2c3e50; }
+        main { padding: 2rem 0; min-height: 60vh; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; margin-top: 2rem; }
+        .btn { display: inline-block; padding: 0.5rem 1rem; background: #3498db; color: white; text-decoration: none; border: none; cursor: pointer; border-radius: 4px; }
+        .btn:hover { background: #2980b9; }
+        .btn-danger { background: #e74c3c; }
+        .btn-danger:hover { background: #c0392b; }
+        .btn-success { background: #27ae60; }
+        .btn-success:hover { background: #229954; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .time-info { background: #ecf0f1; padding: 1rem; margin: 1rem 0; border-radius: 4px; font-size: 0.9rem; }
+        @media (max-width: 768px) {
+            nav ul { flex-direction: column; }
+            .container { padding: 0 10px; }
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🏥 Аптека "Здоровье"</h1>
+            <p>Ваше здоровье - наш приоритет</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="{% url 'index' %}">Главная</a></li>
+                <li><a href="{% url 'medication_list' %}">Каталог</a></li>
+                <li><a href="{% url 'news_list' %}">Новости</a></li>
+                <li><a href="{% url 'company_info' %}">О компании</a></li>
+                <li><a href="{% url 'faq' %}">FAQ</a></li>
+                <li><a href="{% url 'contacts' %}">Контакты</a></li>
+                <li><a href="{% url 'vacancy_list' %}">Вакансии</a></li>
+                <li><a href="{% url 'review_list' %}">Отзывы</a></li>
+                <li><a href="{% url 'promo_list' %}">Промокоды</a></li>
+                {% if user.is_authenticated and not user.is_superuser and user.role != 'employee' %}
+                    <li><a href="{% url 'cart' %}">Корзина</a></li>
+                    <li><a href="{% url 'my_sales' %}">Мои покупки</a></li>
+                {% endif %}
+                {% if user.is_authenticated and user.is_superuser and user.role != 'employee'%}
+                    <li><a href="/admin/">Админ-панель</a></li>
+                    <li><a href="{% url 'sales_summary' %}">Продажи</a></li>
+                {% elif user.is_authenticated and user.role == 'employee' %}
+                    <li><a href="{% url 'sales_summary' %}">Продажи</a></li>
+                {% endif %}
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'profile' %}">Профиль</a></li>
+                    <li>
+                        <form action="{% url 'logout' %}" method="post" style="display:inline;">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger">Выход</button>
+                        </form>
+                    </li>
+                {% else %}
+                    <li><a href="{% url 'register' %}" class="btn">Регистрация</a></li>
+                    <li><a href="{% url 'login' %}" class="btn">Вход</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="time-info">
+                <strong>Текущая дата:</strong> {{ now|date:"d/m/Y H:i:s" }} ({{ TIME_ZONE }})<br>
+                <strong>Время UTC:</strong> {{ now_utc_minus3|date:"d/m/Y H:i:s" }} (UTC)
+            </div>
+            
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Аптека "Здоровье". Все права защищены.</p>
+            <p><a href="{% url 'privacy_policy' %}" style="color: #ecf0f1;">Политика конфиденциальности</a></p>
+        </div>
+    </footer>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

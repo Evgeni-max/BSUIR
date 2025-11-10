@@ -1,0 +1,225 @@
+{% extends "core/base.html" %}
+
+{% block title %}Главная - Аптека "Здоровье"{% endblock %}
+{% block meta_description %}Добро пожаловать в аптеку "Здоровье" - ваш надежный партнер в вопросах здоровья. Широкий ассортимент лекарств, консультации специалистов, быстрая доставка.{% endblock %}
+
+{% block content %}
+<!-- Баннер рекламы -->
+<section class="banner" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3rem 0; text-align: center; margin: 2rem 0; border-radius: 8px;">
+    <div class="container">
+        <h2>🎯 Специальное предложение!</h2>
+        <p style="font-size: 1.2rem; margin: 1rem 0;">Скидка 15% на все витамины и БАДы до конца месяца</p>
+        <a href="{% url 'medication_list' %}" class="btn" style="background: #e74c3c; font-size: 1.1rem; padding: 1rem 2rem;">Перейти к покупкам</a>
+    </div>
+</section>
+
+<!-- Каталог товаров -->
+<section class="catalog">
+    <h2>🏥 Популярные товары</h2>
+    <div class="grid">
+        {% for medication in medications %}
+        <article class="card" itemscope itemtype="https://schema.org/Product">
+            {% if medication.photo %}
+                <img src="{{ medication.photo.url }}" alt="{{ medication.name }}" itemprop="image" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 1rem;">
+            {% endif %}
+            <h3 itemprop="name">{{ medication.name }}</h3>
+            <p><strong>Цена:</strong> <span itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="priceCurrency" content="BYN"><span itemprop="price">{{ medication.price }}</span></span> руб.</p>
+            <p itemprop="description">{{ medication.description|truncatewords:20 }}</p>
+            <div style="margin-top: 1rem;">
+                <a href="{% url 'medication_detail' medication.pk %}" class="btn">Подробнее</a>
+                {% if user.is_authenticated and not user.is_superuser and user.role != 'employee' %}
+                    <a href="{% url 'add_to_cart' medication.pk %}" class="btn btn-success">В корзину</a>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    <div style="text-align: center; margin: 2rem 0;">
+        <a href="{% url 'medication_list' %}" class="btn" style="font-size: 1.1rem; padding: 1rem 2rem;">Посмотреть весь каталог</a>
+    </div>
+</section>
+
+<!-- Последняя новость -->
+{% if last_news %}
+<section class="latest-news" style="background: #f8f9fa; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
+    <h2>📰 Последние новости</h2>
+    <article class="card" style="margin-top: 1rem;">
+        <h3>{{ last_news.title }}</h3>
+        <p><time datetime="{{ last_news.created_at|date:'Y-m-d' }}">{{ last_news.created_at|date:"d.m.Y" }}</time></p>
+        <p>{{ last_news.summary }}</p>
+        {% if last_news.image %}
+            <img src="{{ last_news.image.url }}" alt="{{ last_news.title }}" style="max-width: 300px; height: auto; border-radius: 4px; margin: 1rem 0;">
+        {% endif %}
+        <p><a href="{% url 'news_detail' last_news.pk %}" class="btn">Читать далее</a></p>
+    </article>
+</section>
+{% endif %}
+
+<!-- Партнеры -->
+{% if partners %}
+<section class="partners" style="background: #ecf0f1; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
+    <h2>🤝 Наши партнеры</h2>
+    <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+        {% for partner in partners %}
+        <div class="card" style="text-align: center;">
+            {% if partner.logo %}
+                <img src="{{ partner.logo.url }}" alt="{{ partner.name }}" style="max-width: 150px; height: auto; margin-bottom: 1rem;">
+            {% endif %}
+            <h4>{{ partner.name }}</h4>
+            {% if partner.description %}
+                <p style="font-size: 0.9rem; color: #666;">{{ partner.description|truncatewords:10 }}</p>
+            {% endif %}
+            <a href="{{ partner.website_url }}" target="_blank" rel="noopener" class="btn" style="margin-top: 1rem;">Перейти на сайт</a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<!-- Семантические элементы для демонстрации -->
+<section class="semantic-demo" style="background: #fff; border: 2px solid #3498db; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
+    <h2>📚 Вам может понравиться</h2>
+    
+    <h3>Сокращения и определения</h3>
+    <p>Мы работаем с <abbr title="Биологически активные добавки">БАД</abbr> и <abbr title="Лекарственные препараты">ЛП</abbr>.</p>
+    
+    <dl>
+        <dt><dfn>Аптека</dfn></dt>
+        <dd>Учреждение здравоохранения, осуществляющее розничную торговлю лекарственными средствами</dd>
+        <dt><dfn >Рецепт</dfn></dt>
+        <dd>Письменное предписание врача о составе и изготовлении лекарства</dd>
+    </dl>
+    <h3>Цитаты</h3>
+    <blockquote cite="https://example.com">
+        <p>"Здоровье - это не всё, но без здоровья всё - ничто."</p>
+        <footer>— <cite>Артур Шопенгауэр</cite></footer>
+    </blockquote>
+    
+    <h3>Дата и время</h3>
+    <p>Мы работаем <time datetime="2024-01-01T09:00">с 9:00</time> до <time datetime="2024-01-01T21:00">21:00</time> ежедневно.</p>
+    
+    <h3>Стихотворение с фиксированными переносами</h3>
+    <pre><code>Здоровье - это главное богатство,
+Без него не будет счастья.
+Лекарства, витамины, спорт -
+Вот путь к долголетию и жизни без забот.</code></pre>
+    
+    <h3>Полезные ссылки</h3>
+    <ul>
+        <li><a href="{% url 'medication_list' %}">Внутренняя ссылка на каталог</a></li>
+        <li><a href="https://www.who.int/" target="_blank" rel="noopener" accesskey="k">Внешняя ссылка на ВОЗ</a></li>
+        <li><a href="mailto:info@apteka.by">Ссылка на email</a></li>
+        <li><a href="tel:+375291234567">Ссылка на телефон</a></li>
+        <li><a href="#top" title="Вернуться наверх">Видео о нас</a></li>
+    </ul>
+</section>
+
+<!-- Таблица с данными -->
+<section class="data-table" style="margin: 2rem 0;">
+    <h2>📊 Статистика работы</h2>
+    <table style="width: 100%; border-collapse: collapse; margin: 1rem 0;">
+        <caption>Показатели работы аптеки за последний месяц</caption>
+        <thead>
+            <tr style="background: #34495e; color: white;">
+                <th id="month" scope="col">Месяц</th>
+                <th id="sales" scope="col">Продажи (руб.)</th>
+                <th id="customers" scope="col">Количество клиентов</th>
+                <th id="growth" scope="col">Рост (%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td headers="month">Январь 2024</td>
+                <td headers="sales">1,250,000</td>
+                <td headers="customers">2,450</td>
+                <td headers="growth">+12.5</td>
+            </tr>
+            <tr style="background: #f8f9fa;">
+                <td headers="month">Февраль 2024</td>
+                <td headers="sales">1,380,000</td>
+                <td headers="customers">2,680</td>
+                <td headers="growth">+10.4</td>
+            </tr>
+            <tr>
+                <td headers="month">Март 2024</td>
+                <td headers="sales">1,520,000</td>
+                <td headers="customers">2,890</td>
+                <td headers="growth">+10.1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="background: #2c3e50; color: white; font-weight: bold;">
+                <td headers="month">Итого</td>
+                <td headers="sales">4,150,000</td>
+                <td headers="customers">8,020</td>
+                <td headers="growth">+11.0</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+
+<!-- Форма обратной связи -->
+<section class="contact-form" style="background: #f8f9fa; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
+    <h2>📝 Обратная связь</h2>
+    <form action="#" method="post" style="max-width: 500px;">
+        {% csrf_token %}
+        <fieldset>
+            <legend>Свяжитесь с нами</legend>
+            
+            <div style="margin: 1rem 0;">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" pattern="\+375 \([0-9]{2}\) [0-9]{3}-[0-9]{2}-[0-9]{2}" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <label for="category">Категория вопроса:</label>
+                <select id="category" name="category" style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 4px;">
+                    <option value="">Выберите категорию</option>
+                    <option value="medication">Лекарства</option>
+                    <option value="delivery">Доставка</option>
+                    <option value="payment">Оплата</option>
+                    <option value="other">Другое</option>
+                </select>
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 0.5rem; margin-top: 0.25rem; border: 1px solid #ddd; border-radius: 4px; resize: vertical;"></textarea>
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <label>
+                    <input type="checkbox" name="newsletter" value="yes">
+                    Подписаться на рассылку новостей
+                </label>
+            </div>
+            
+            <button type="submit" class="btn btn-success" style="width: 100%; padding: 1rem; font-size: 1.1rem;">Отправить сообщение</button>
+        </fieldset>
+    </form>
+</section>
+
+<!-- Мультимедиа элементы -->
+<section class="multimedia" style="margin: 2rem 0;">
+    <h2>🎥 Видео о нас</h2>
+    
+    <h3>🎉 Видео о нашей аптеке</h3>
+    <video width="560" height="315" controls style="max-width: 100%; border-radius: 8px;">
+        <source src="/media/videos/birthday_video.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео элемент.
+    </video>
+    
+</section>
+
+<a id="top"></a>
+{% endblock %}

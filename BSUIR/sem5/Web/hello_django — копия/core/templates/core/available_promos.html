@@ -1,0 +1,12 @@
+{% extends "core/base.html" %}
+{% block title %}Доступные промокоды{% endblock %}
+{% block content %}
+<h2>Доступные промокоды</h2>
+<ul>
+    {% for promo in promos %}
+        <li>{{ promo.code }} — Скидка: {{ promo.discount }}%</li>
+    {% empty %}
+        <li>Нет доступных промокодов.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

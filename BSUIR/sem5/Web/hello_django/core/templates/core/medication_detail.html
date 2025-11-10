@@ -1,0 +1,102 @@
+{% extends "core/base.html" %}
+
+{% block title %}{{ medication.name }} - Аптека "Здоровье"{% endblock %}
+{% block meta_description %}{{ medication.description|truncatewords:20 }} - купить {{ medication.name }} в аптеке "Здоровье" по цене {{ medication.price }} руб.{% endblock %}
+
+{% block content %}
+<div class="grid" itemscope itemtype="https://schema.org/Product">
+    <div>
+        {% if medication.photo %}
+            <img src="{{ medication.photo.url }}" alt="{{ medication.name }}" itemprop="image" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        {% endif %}
+    </div>
+    
+    <div>
+        <h1 itemprop="name">{{ medication.name }}</h1>
+        
+        <div class="card" style="background: #e8f5e8; margin: 1rem 0;" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <meta itemprop="priceCurrency" content="BYN">
+            <meta itemprop="availability" content="https://schema.org/InStock">
+            <link itemprop="url" href="{{ request.build_absolute_uri }}">
+            <h2 style="color: #27ae60; margin: 0;">💰 Цена: <span itemprop="price">{{ medication.price }}</span> руб.</h2>
+        </div>
+        
+        <div style="margin: 2rem 0;">
+            {% if user.is_authenticated and not user.is_superuser and user.role != 'employee' %}
+                <a href="{% url 'add_to_cart' medication.pk %}" class="btn btn-success" style="font-size: 1.2rem; padding: 1rem 2rem; margin-right: 1rem;">
+                    🛒 Добавить в корзину
+                </a>
+                <a href="{% url 'buy_medication' medication.pk %}" class="btn" style="font-size: 1.2rem; padding: 1rem 2rem;">
+                    💳 Купить сейчас
+                </a>
+            {% elif not user.is_authenticated %}
+                <p style="background: #fff3cd; padding: 1rem; border-radius: 4px; border: 1px solid #ffeaa7;">
+                    <strong>Войдите в систему</strong>, чтобы добавить товар в корзину или совершить покупку.
+                    <a href="{% url 'login' %}" class="btn" style="margin-left: 1rem;">Войти</a>
+                </p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="card" style="margin: 2rem 0;">
+    <h2>📋 Информация о товаре</h2>
+    <dl style="display: grid; grid-template-columns: auto 1fr; gap: 0.5rem 1rem;">
+        <dt><strong>Код товара:</strong></dt>
+        <dd itemprop="sku">{{ medication.code }}</dd>
+        
+        <dt><strong>Лечащее средство:</strong></dt>
+        <dd>{{ medication.remedy.name }}</dd>
+        
+        <dt><strong>Отдел:</strong></dt>
+        <dd>{{ medication.department }}</dd>
+        
+        <dt><strong>Поставщики:</strong></dt>
+        <dd>
+            {% for supplier in medication.suppliers.all %}
+                {{ supplier.name }}{% if not forloop.last %}, {% endif %}
+            {% empty %}
+                Нет поставщиков.
+            {% endfor %}
+        </dd>
+    </dl>
+</div>
+
+<div class="card" style="margin: 2rem 0;">
+    <h2>📖 Описание</h2>
+    <p itemprop="description">{{ medication.description }}</p>
+</div>
+
+<div class="card" style="margin: 2rem 0;">
+    <h2>📝 Инструкция по применению</h2>
+    <p>{{ medication.instruction }}</p>
+</div>
+
+<div class="card" style="margin: 2rem 0;">
+    <h2>ℹ️ Информация о лечащем средстве</h2>
+    <p>{{ medication.remedy.info }}</p>
+</div>
+
+<div style="text-align: center; margin: 2rem 0;">
+    <a href="{% url 'medication_list' %}" class="btn">← К списку медикаментов</a>
+</div>
+
+<p>
+    <strong>Дата добавления:</strong>
+    {{ medication.created_at|date:"d/m/Y H:i" }} ({{ TIME_ZONE }}) /
+    {{ medication.created_at|date:"d/m/Y H:i" }} (UTC)
+    <br>
+    <strong>Дата изменения:</strong>
+    {{ medication.updated_at|date:"d/m/Y H:i" }} ({{ TIME_ZONE }}) /
+    {{ medication.updated_at|date:"d/m/Y H:i" }} (UTC)
+</p>
+<pre>
+{{ now|date:"Y" }}-{{ now|date:"m" }}
+Пн Вт Ср Чт Пт Сб Вс
+01 02 03 04 05 06 07
+08 09 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+29 30 31
+</pre>
+{% endblock %}

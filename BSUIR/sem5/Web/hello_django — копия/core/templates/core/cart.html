@@ -1,0 +1,55 @@
+{% extends "core/base.html" %}
+
+{% block title %}Корзина - Аптека "Здоровье"{% endblock %}
+{% block meta_description %}Ваша корзина покупок в аптеке "Здоровье". Просмотрите выбранные товары, измените количество и перейдите к оформлению заказа.{% endblock %}
+
+{% block content %}
+<h1>🛒 Корзина покупок</h1>
+
+{% if cart_items %}
+    <div class="grid">
+        {% for item in cart_items %}
+        <article class="card">
+            {% if item.medication.photo %}
+                <img src="{{ item.medication.photo.url }}" alt="{{ item.medication.name }}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 1rem;">
+            {% endif %}
+            <h3>{{ item.medication.name }}</h3>
+            <p><strong>Цена за единицу:</strong> {{ item.medication.price }} руб.</p>
+            <p><strong>Количество:</strong> {{ item.quantity }}</p>
+            <p><strong>Общая стоимость:</strong> {{ item.total_price }} руб.</p>
+            
+            <div style="margin-top: 1rem;">
+                <form method="post" action="{% url 'update_cart' item.pk %}" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="increase">
+                    <button type="submit" class="btn">+</button>
+                </form>
+                
+                <form method="post" action="{% url 'update_cart' item.pk %}" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="decrease">
+                    <button type="submit" class="btn">-</button>
+                </form>
+                
+                <form method="post" action="{% url 'update_cart' item.pk %}" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="remove">
+                    <button type="submit" class="btn btn-danger">Удалить</button>
+                </form>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    
+    <div class="card" style="text-align: center; margin: 2rem 0; background: #e8f5e8;">
+        <h2>💰 Итого к оплате: {{ total }} руб.</h2>
+        <a href="{% url 'checkout' %}" class="btn btn-success" style="font-size: 1.2rem; padding: 1rem 2rem; margin-top: 1rem;">Оформить заказ</a>
+    </div>
+{% else %}
+    <div class="card" style="text-align: center; padding: 3rem;">
+        <h2>😔 Корзина пуста</h2>
+        <p>Добавьте товары в корзину, чтобы продолжить покупки</p>
+        <a href="{% url 'medication_list' %}" class="btn" style="margin-top: 1rem;">Перейти к каталогу</a>
+    </div>
+{% endif %}
+{% endblock %}

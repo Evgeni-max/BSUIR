@@ -1,0 +1,35 @@
+{% extends "core/base.html" %}
+
+{% block title %}Промокоды и купоны{% endblock %}
+
+{% block content %}
+<h2>Действующие промокоды</h2>
+<ul>
+    {% for promo in active_promos %}
+        <li>
+            {{ promo.code }} — Скидка: {{ promo.discount }}%
+            {% if promo.expires_at %}
+                — Действует до: {{ promo.expires_at|date:"d.m.Y H:i" }}
+            {% else %}
+                — Без срока действия
+            {% endif %}
+        </li>
+    {% empty %}
+        <li>Нет действующих промокодов.</li>
+    {% endfor %}
+</ul>
+
+<h2>Архив промокодов</h2>
+<ul>
+    {% for promo in archived_promos %}
+        <li>
+            {{ promo.code }} — Скидка: {{ promo.discount }}%
+            {% if promo.expires_at %}
+                — Действовал до: {{ promo.expires_at|date:"d.m.Y H:i" }}
+            {% endif %}
+        </li>
+    {% empty %}
+        <li>Нет архивных промокодов.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

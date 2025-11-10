@@ -1,0 +1,23 @@
+{% extends "core/base.html" %}
+
+{% block title %}Контакты{% endblock %}
+
+{% block content %}
+<h2>Контакты сотрудников</h2>
+<ul>
+    {% for contact in contacts %}
+        <li>
+            {% if contact.photo %}
+                <img src="{{ contact.photo.url }}" alt="{{ contact.employee.user.get_full_name }}" width="100">
+            {% endif %}
+            <strong>{{ contact.employee.user.get_full_name }}</strong> — {{ contact.position }}<br>
+            <em>{{ contact.description }}</em><br>
+            Телефон: {{ contact.phone }}<br>
+            Почта: {{ contact.email }}<br>
+            <hr>
+        </li>
+    {% empty %}
+        <li>Нет контактов.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

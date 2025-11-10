@@ -1,0 +1,97 @@
+{% extends "core/base.html" %}
+
+{% block title %}Оформление заказа - Аптека "Здоровье"{% endblock %}
+{% block meta_description %}Оформление заказа в аптеке "Здоровье". Выберите точку самовывоза и примените промокод для получения скидки.{% endblock %}
+
+{% block content %}
+<h1>💳 Оформление заказа</h1>
+
+{% if error %}
+    <div class="card" style="background: #ffe6e6; border: 1px solid #ff6b6b; color: #d63031; margin: 1rem 0;">
+        <p><strong>Ошибка:</strong> {{ error }}</p>
+    </div>
+{% endif %}
+
+<div class="grid">
+    <div>
+        <h2>📦 Товары в заказе</h2>
+        {% for item in cart_items %}
+        <div class="card" style="margin-bottom: 1rem;">
+            <h4>{{ item.medication.name }}</h4>
+            <p><strong>Количество:</strong> {{ item.quantity }}</p>
+            <p><strong>Цена:</strong> {{ item.medication.price }} руб. × {{ item.quantity }} = {{ item.total_price }} руб.</p>
+        </div>
+        {% endfor %}
+        
+        <div class="card" style="background: #e8f5e8;">
+            <h3>💰 Общая сумма: {{ cart_items|length|add:0|floatformat:2 }} руб.</h3>
+        </div>
+    </div>
+    
+    <div>
+        <h2>📋 Данные заказа</h2>
+        <form method="post" class="card">
+            {% csrf_token %}
+            
+            <div style="margin: 1rem 0;">
+                <label for="pickup_point"><strong>Точка самовывоза:</strong></label>
+                <select id="pickup_point" name="pickup_point" required style="width: 100%; padding: 0.5rem; margin-top: 0.5rem; border: 1px solid #ddd; border-radius: 4px;">
+                    <option value="">Выберите точку самовывоза</option>
+                    {% for point in pickup_points %}
+                        <option value="{{ point.id }}">{{ point.address }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <label for="promo_code"><strong>Промокод (необязательно):</strong></label>
+                <select id="promo_code" name="promo_code" style="width: 100%; padding: 0.5rem; margin-top: 0.5rem; border: 1px solid #ddd; border-radius: 4px;">
+                    <option value="">Без промокода</option>
+                    {% for promo in promo_codes %}
+                        <option value="{{ promo.id }}">{{ promo.code }} (скидка {{ promo.discount }}%)</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <h3>💳 Способ оплаты</h3>
+                <fieldset>
+                    <legend>Выберите способ оплаты</legend>
+                    <label style="display: block; margin: 0.5rem 0;">
+                        <input type="radio" name="payment_method" value="card" checked>
+                        💳 Банковская карта
+                    </label>
+                    <label style="display: block; margin: 0.5rem 0;">
+                        <input type="radio" name="payment_method" value="cash">
+                        💰 Наличные при получении
+                    </label>
+                    <label style="display: block; margin: 0.5rem 0;">
+                        <input type="radio" name="payment_method" value="transfer">
+                        🏦 Банковский перевод
+                    </label>
+                </fieldset>
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <h3>📝 Комментарий к заказу</h3>
+                <textarea name="comment" rows="3" placeholder="Дополнительные пожелания к заказу..." style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+            </div>
+            
+            <div style="margin: 1rem 0;">
+                <label style="display: flex; align-items: center;">
+                    <input type="checkbox" name="agree_terms" required style="margin-right: 0.5rem;">
+                    Я согласен с <a href="{% url 'privacy_policy' %}" target="_blank">условиями обработки персональных данных</a>
+                </label>
+            </div>
+            
+            <button type="submit" class="btn btn-success" style="width: 100%; padding: 1rem; font-size: 1.2rem; margin-top: 1rem;">
+                🛒 Подтвердить заказ
+            </button>
+        </form>
+    </div>
+</div>
+
+<div style="text-align: center; margin: 2rem 0;">
+    <a href="{% url 'cart' %}" class="btn">← Вернуться в корзину</a>
+</div>
+{% endblock %}

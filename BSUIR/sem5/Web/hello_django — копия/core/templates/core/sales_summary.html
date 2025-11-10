@@ -1,0 +1,17 @@
+{% extends "core/base.html" %}
+{% block title %}Продажи{% endblock %}
+{% block content %}
+<h2>Общая выручка: {{ total_revenue|floatformat:2 }} руб.</h2>
+<h3>Выручка по отделам:</h3>
+<ul>
+    {% for item in department_revenues %}
+        <li>{{ item.department.name }}: {{ item.revenue|floatformat:2 }} руб.</li>
+    {% endfor %}
+</ul>
+
+<h3>График распределения выручки по отделам</h3>
+<img src="data:image/png;base64,{{ dept_chart }}" alt="График выручки по отделам" style="max-width: 100%;">
+
+<h3>График динамики выручки по датам</h3>
+<img src="data:image/png;base64,{{ date_chart }}" alt="График выручки по датам" style="max-width: 100%;">
+{% endblock %}

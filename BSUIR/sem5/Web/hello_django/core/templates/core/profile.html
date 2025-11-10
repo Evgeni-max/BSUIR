@@ -1,0 +1,28 @@
+{% extends "core/base.html" %}
+
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+<h2>Профиль пользователя</h2>
+<p>Имя пользователя: {{ user.username }}</p>
+<p>Email: {{ user.email }}</p>
+{% if user.role == 'employee' %}
+    <h3>Поставщики вашего отдела:</h3>
+    <ul>
+        {% for supplier in employee_suppliers %}
+            <li>{{ supplier.name }}</li>
+        {% empty %}
+            <li>Нет поставщиков.</li>
+        {% endfor %}
+    </ul>
+    
+{% endif %}
+<div>
+    <pre>
+Пн Вт Ср Чт Пт Сб Вс
+{% for week in calendar_weeks %}
+{% for day in week %}{% if day %}{{ day|stringformat:"2d" }} {% else %}   {% endif %}{% endfor %}
+{% endfor %}
+    </pre>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "core/base.html" %}
+
+{% block title %}FAQ{% endblock %}
+
+{% block content %}
+<h2>Вопросы и ответы</h2>
+<ul>
+    {% for faq in faqs %}
+        <li>
+            <strong>Вопрос:</strong> {{ faq.question }}<br>
+            <strong>Ответ:</strong> {{ faq.answer }}<br>
+            <em>Добавлено: {{ faq.created_at|date:"d/m/Y H:i" }}</em>
+            <br>
+            <em>Изменено: {{ faq.updated_at|date:"d/m/Y H:i" }}</em>
+            <hr>
+        </li>
+    {% empty %}
+        <li>Нет вопросов.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends "core/base.html" %}
+
+{% block title %}Покупка{% endblock %}
+
+{% block content %}
+<h2>Покупка: {{ medication.name }}</h2>
+<p>Цена: {{ medication.price }}</p>
+{% if error %}
+    <div style="color: red;">{{ error }}</div>
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    <label>Количество: <input type="number" name="quantity" value="1" min="1"></label><br>
+    <label>Точка самовывоза:
+        <select name="pickup_point" required>
+            <option value="">Выберите точку...</option>
+            {% for point in pickup_points %}
+                <option value="{{ point.id }}">{{ point.address }}</option>
+            {% endfor %}
+        </select>
+    </label><br>
+    <label>Промокод (необязательно):
+        <select name="promo_code">
+            <option value="">Без промокода</option>
+            {% for promo in promo_codes %}
+                <option value="{{ promo.id }}">{{ promo.code }} (скидка {{ promo.discount }}%)</option>
+            {% endfor %}
+        </select>
+    </label><br>
+    <button type="submit">Купить</button>
+</form>
+{% endblock %}

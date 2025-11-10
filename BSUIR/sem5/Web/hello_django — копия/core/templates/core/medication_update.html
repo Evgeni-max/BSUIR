@@ -1,0 +1,48 @@
+{% extends "core/base.html" %}
+
+{% block title %}Изменить медикамент{% endblock %}
+
+{% block content %}
+<h2>Изменить медикамент</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label>Название: <input type="text" name="name" value="{{ medication.name }}" required></label><br>
+    <label>Код: <input type="text" name="code" value="{{ medication.code }}" required></label><br>
+    <label>Цена: <input type="number" name="price" step="0.01" value="{{ medication.price }}" required></label><br>
+    <label>Отдел:
+        <select name="department" required>
+            {% for dept in departments %}
+                <option value="{{ dept.id }}" {% if medication.department.id == dept.id %}selected{% endif %}>{{ dept.name }}</option>
+            {% endfor %}
+        </select>
+    </label><br>
+    <label>Лечащее средство:
+        <select name="remedy" required>
+            {% for remedy in remedies %}
+                <option value="{{ remedy.id }}" {% if medication.remedy.id == remedy.id %}selected{% endif %}>{{ remedy.name }}</option>
+            {% endfor %}
+        </select>
+    </label><br>
+    <label>Поставщики:
+        <select name="suppliers" multiple>
+            {% for supplier in suppliers %}
+                <option value="{{ supplier.id }}" {% if supplier in medication.suppliers.all %}selected{% endif %}>{{ supplier.name }}</option>
+            {% endfor %}
+        </select>
+    </label><br>
+    <label>Инструкция:<br>
+        <textarea name="instruction" rows="3">{{ medication.instruction }}</textarea>
+    </label><br>
+    <label>Описание:<br>
+        <textarea name="description" rows="3">{{ medication.description }}</textarea>
+    </label><br>
+    <label>Фото:
+        {% if medication.photo %}
+            <img src="{{ medication.photo.url }}" alt="{{ medication.name }}" width="100"><br>
+        {% endif %}
+        <input type="file" name="photo">
+    </label><br>
+    <button type="submit">Сохранить</button>
+    <a href="{% url 'medication_list' %}"><button type="button">Отмена</button></a>
+</form>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends "core/base.html" %}
+
+{% block title %}Медикаменты{% endblock %}
+
+{% block content %}
+<h2>Список медикаментов</h2>
+
+<form method="get" style="margin-bottom: 15px;">
+    <input type="text" name="q" placeholder="Поиск по названию" value="{{ search_query }}">
+    <select name="department">
+        <option value="">Все отделы</option>
+        {% for dept in departments %}
+            <option value="{{ dept.id }}" {% if dept.id|stringformat:"s" == selected_department %}selected{% endif %}>{{ dept.name }}</option>
+        {% endfor %}
+    </select>
+    <button type="submit">Поиск</button>
+    <button type="submit" name="sort" value="price_asc">Сортировать по цене ↑</button>
+    <button type="submit" name="sort" value="price_desc">Сортировать по цене ↓</button>
+</form>
+
+{% if user.is_authenticated and user.is_superuser %}
+    <a href="{% url 'medication_create' %}">
+        <button type="button">Добавить медикамент</button>
+    </a>
+{% endif %}
+
+<ul>
+    {% for med in medications %}
+        <li>
+            <strong>
+                <a href="{% url 'medication_detail' med.pk %}">{{ med.name }}</a>
+            </strong> (Код: {{ med.code }})<br>
+            Лечащее средство: {{ med.remedy.name }}<br>
+            Информация: {{ med.remedy.info }}<br>
+            Отдел: {{ med.department }}<br>
+            {% for supplier in med.suppliers.all %}
+                Поставщик: {{ supplier.name }}<br>
+            {% endfor %}
+            Цена: {{ med.price }}<br>
+            Описание: {{ med.description }}<br>
+            {% if med.photo %}
+                <img src="{{ med.photo.url }}" alt="{{ med.name }}" width="300">
+            {% endif %}
+            {% if user.is_authenticated and not user.is_superuser and user.role != 'employee' %}
+                <a href="{% url 'buy_medication' med.pk %}">
+                    <button type="button">Купить</button>
+                </a>
+            {% endif %}
+            {% if user.is_authenticated and user.is_superuser %}
+                <a href="{% url 'medication_update' med.pk %}"><button type="button">Изменить</button></a>
+                <form method="post" action="{% url 'medication_delete' med.pk %}" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" onclick="return confirm('Удалить медикамент?');">Удалить</button>
+                </form>
+            {% endif %}<br>
+            <strong>Дата добавления:</strong>
+            {{ med.created_at|date:"d/m/Y H:i" }} ({{ TIME_ZONE }}) /
+            {{ med.created_at_utc3|date:"d/m/Y H:i" }} (UTC)
+            <br>
+            <strong>Дата изменения:</strong>
+            {{ med.updated_at|date:"d/m/Y H:i" }} ({{ TIME_ZONE }}) /
+            {{ med.updated_at_utc3|date:"d/m/Y H:i" }} (UTC)
+            <br>
+            <hr>
+        </li>
+    {% empty %}
+        <li>Нет медикаментов.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

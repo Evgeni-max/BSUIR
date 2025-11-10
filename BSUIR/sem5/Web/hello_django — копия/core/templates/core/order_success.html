@@ -1,0 +1,50 @@
+{% extends "core/base.html" %}
+
+{% block title %}Заказ оформлен - Аптека "Здоровье"{% endblock %}
+{% block meta_description %}Ваш заказ успешно оформлен в аптеке "Здоровье". Ожидайте уведомления о готовности к выдаче.{% endblock %}
+
+{% block content %}
+<div class="card" style="text-align: center; background: #e8f5e8; border: 2px solid #27ae60; padding: 3rem; margin: 2rem 0;">
+    <h1>✅ Заказ успешно оформлен!</h1>
+    <p style="font-size: 1.2rem; margin: 1rem 0;">Спасибо за ваш заказ в аптеке "Здоровье"</p>
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h2>📋 Информация о заказе</h2>
+        <p><strong>Номер заказа:</strong> #{{ order.id }}</p>
+        <p><strong>Дата заказа:</strong> {{ order.created_at|date:"d.m.Y H:i" }}</p>
+        <p><strong>Статус:</strong> {{ order.get_status_display }}</p>
+        <p><strong>Общая сумма:</strong> {{ order.total_amount }} руб.</p>
+        {% if order.promo_code %}
+            <p><strong>Применен промокод:</strong> {{ order.promo_code.code }} (скидка {{ order.promo_code.discount }}%)</p>
+        {% endif %}
+        <p><strong>Точка самовывоза:</strong> {{ order.pickup_point.address }}</p>
+    </div>
+    
+    <div class="card">
+        <h2>📦 Состав заказа</h2>
+        {% for item in order.items.all %}
+        <div style="border-bottom: 1px solid #eee; padding: 0.5rem 0;">
+            <p><strong>{{ item.medication.name }}</strong></p>
+            <p>Количество: {{ item.quantity }} × {{ item.price }} руб. = {{ item.total_price }} руб.</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="card" style="background: #fff3cd; border: 1px solid #ffeaa7; margin: 2rem 0;">
+    <h3>ℹ️ Что дальше?</h3>
+    <ol style="text-align: left; margin: 1rem 0;">
+        <li>Мы обработаем ваш заказ в течение 1-2 часов</li>
+        <li>Вы получите SMS-уведомление о готовности заказа</li>
+        <li>Заказ будет ждать вас в выбранной точке самовывоза</li>
+        <li>Срок хранения заказа: 3 дня</li>
+    </ol>
+</div>
+
+<div style="text-align: center; margin: 2rem 0;">
+    <a href="{% url 'index' %}" class="btn" style="margin-right: 1rem;">На главную</a>
+    <a href="{% url 'medication_list' %}" class="btn btn-success">Продолжить покупки</a>
+</div>
+{% endblock %}

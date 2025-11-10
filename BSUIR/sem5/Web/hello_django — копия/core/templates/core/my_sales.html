@@ -1,0 +1,15 @@
+{% extends "core/base.html" %}
+{% block title %}Мои покупки{% endblock %}
+{% block content %}
+<h2>Мои покупки</h2>
+<ul>
+    {% for sale in sales %}
+        <li>
+            {{ sale.medication.name }} — {{ sale.quantity }} шт. — {{ sale.total_price }} руб. — {{ sale.date|date:"d/m/Y H:i" }}
+            <br>
+        </li>
+    {% empty %}
+        <li>Нет покупок.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
