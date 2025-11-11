@@ -1,0 +1,57 @@
+/* Базовые переменные, сброс и общие типографские правила */
+:root {
+  --brand-primary: #2c7be5;
+  --brand-accent: #27ae60;
+  --brand-danger: #e74c3c;
+  --text-color: #2b2b2b;
+  --muted-color: #6c757d;
+  --surface: #ffffff;
+  --surface-2: #f5f7fb;
+  --shadow: 0 10px 24px rgba(20, 20, 43, 0.06), 0 2px 6px rgba(20, 20, 43, 0.08);
+}
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-kerning: normal; }
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: var(--text-color);
+  line-height: 1.65;
+  background:
+    linear-gradient(180deg, rgba(236, 248, 255, 0.8), rgba(255, 255, 255, 0.9)),
+    url("/media/greean_crest.jpg") center/cover no-repeat fixed;
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+h1, h2, h3, h4, h5 { font-family: "Merriweather", Georgia, "Times New Roman", serif; letter-spacing: 0.2px; }
+.brand-title { font-weight: 800; letter-spacing: 0.5px; font-kerning: normal; text-transform: uppercase; }
+p { margin: 0 0 1rem; text-indent: 1.25rem; }
+.lead { font-size: 1.125rem; line-height: 1.9; font-variant-ligatures: common-ligatures; }
+.small-caps { font-variant: small-caps; }
+.tight { letter-spacing: -0.2px; }
+.spacious { word-spacing: 0.25rem; letter-spacing: 0.3px; }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.align-justify { text-align: justify; }
+/* Навигация и шапка/подвал */
+.site-nav { position: sticky; top: 0; z-index: 1000; background: #0f1b2d; box-shadow: var(--shadow); }
+.site-nav ul { list-style: none; display: flex; flex-wrap: wrap; padding-left: 0; margin: 0; }
+.site-nav a { display: block; padding: 1rem 1.25rem; color: #ffffff; text-decoration: none; transition: color 0.25s ease, background 0.25s ease; }
+.site-nav a:hover { background: rgba(255,255,255,0.06); color: #e2e8f0; }
+.site-nav a:focus { outline: 2px solid var(--brand-primary); outline-offset: 2px; }
+.site-nav a:visited { color: #d4e3ff; }
+.site-nav a:active { background: rgba(255,255,255,0.12); }
+header { background: linear-gradient(135deg, #102a43, #243b53); color: white; padding: 1.25rem 0; }
+footer { background: #0f1b2d; color: #dbe2ef; text-align: center; padding: 2rem 0; }
+/* Ютилити */
+::selection { background: #a7f3d0; color: #064e3b; }
+q:lang(ru) { quotes: "«" "»" "„" "“"; }
+q:lang(en) { quotes: "“" "”" "‘" "’"; }
+q::before { content: open-quote; }
+q::after { content: close-quote; }
+.hyphenate { hyphens: auto; word-break: break-word; overflow-wrap: anywhere; }
+main { min-height: 60vh; padding: 2rem 0; }
+/* Медиа-запросы общие */
+@media (max-width: 1024px) { .container { padding: 0 16px; } .site-nav a { padding: 0.9rem 1rem; } }
+@media (max-height: 700px) { .site-nav { backdrop-filter: blur(4px); } }
+

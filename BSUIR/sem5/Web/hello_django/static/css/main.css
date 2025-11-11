@@ -1,0 +1,11 @@
+/* Точка входа CSS: разбивка по файлам для удобства поддержки */
+@import url("base.css");
+@import url("components.css");
+@import url("home.css");
+@import url("company.css");
+@import url("news.css");
+@import url("faq.css");
+@import url("contacts.css");
+@import url("vacancies.css");
+@import url("promos.css");
+@import url("privacy.css");

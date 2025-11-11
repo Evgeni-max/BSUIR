@@ -1,0 +1,15 @@
+/* Контакты */
+.team { display: flex; flex-wrap: wrap; gap: 1rem; }
+.team .member {
+  flex: 1 1 260px;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 0.75rem;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+.team .member img { width: 72px; height: 72px; object-fit: cover; border-radius: 50%; }
+

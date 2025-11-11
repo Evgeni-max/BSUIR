@@ -1,0 +1,18 @@
+/* О компании */
+.company-logo { display: inline-block; transition: transform 0.6s ease; }
+.company-logo:hover { transform: rotate(-2deg) scale(1.05); }
+.certificate {
+  position: relative;
+  padding: 2rem;
+  background:
+    radial-gradient(120% 120% at 50% 0%, #ffffff 0%, #f7fafc 100%),
+    linear-gradient(135deg, rgba(16, 185, 129, 0.08), rgba(59, 130, 246, 0.08));
+  border: 24px solid transparent;
+  -webkit-border-image: url("/static/images/favicon.jpg") 30 round;
+  border-image: url("/static/images/favicon.jpg") 30 round;
+  box-shadow: var(--shadow);
+  z-index: 1;
+  text-align: center;
+}
+.certificate h3 { font-variant: small-caps; letter-spacing: 1px; }
+

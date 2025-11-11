@@ -1,0 +1,12 @@
+/* FAQ */
+.faq-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.75rem 1rem;
+  box-shadow: var(--shadow);
+}
+.faq-item + .faq-item { margin-top: 0.75rem; }
+.faq-item summary { font-weight: 700; cursor: pointer; }
+.faq-item time { color: var(--muted-color); font-size: 0.875rem; }
+
